@@ -1,0 +1,66 @@
+body {
+    background-color: #212F3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70VH;
+    font-weight: bold;
+
+}
+
+*{
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px;
+    border: 2px solid rgb(177, 177, 177);
+    padding: 30px;
+    background: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: -2px;
+    font-family: 'La Belle Aurore', 'cursive';
+    font-size: 50px;
+}
+
+input {
+    display: block;
+    border: 2px solid;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #212F3C;
+    opacity: 1; /* Firefox */
+}
+
+button {
+    float: right;
+    background:#212F3C;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px; 
+    border: none;
+}
+
+.Registration {
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #212F3C;
+    
+}
+
+
+
