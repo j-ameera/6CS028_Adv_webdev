@@ -62,6 +62,11 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+// Custom Blog Routes
+$route['blog/create'] = 'blog/create';
+$route['blog/store'] = 'blog/store';
+$route['blog/delete/(:num)'] = 'blog/delete/$1';
+
 $route['auth'] = 'auth';
 $route['auth/signup'] = 'auth/signup';
 $route['auth/register'] = 'auth/register';

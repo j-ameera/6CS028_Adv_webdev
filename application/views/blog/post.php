@@ -1,5 +1,8 @@
 <?php include APPPATH . 'views/home/header.php'; ?>
 
+<!-- Link to post.css -->
+<link rel="stylesheet" href="<?php echo base_url('assets/css/post.css'); ?>">
+
 <!-- BLOG DESIGN STARTS HERE -->
 <section id="blog">
     <!-- HEADING -->
@@ -12,8 +15,8 @@
         <div class="blog-box">
             <!-- img -->
             <div class="blog-img">
-                <?php if (!empty($post->image_url)): ?>
-                    <img src="<?php echo $post->image_url; ?>" alt="Blog">
+                <?php if (!empty($post->image)): ?>
+                    <img src="<?php echo base_url('uploads/' . $post->image); ?>" alt="Blog">
                 <?php else: ?>
                     <img src="https://via.placeholder.com/1000x600" alt="Blog">
                 <?php endif; ?>
