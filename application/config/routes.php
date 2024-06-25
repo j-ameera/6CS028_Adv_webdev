@@ -58,3 +58,12 @@ $route['admin/create'] = 'blog/create';
 $route['admin/delete/(:num)'] = 'blog/delete/$1';
 $route['blog/store'] = 'blog/store';
 
+$route['default_controller'] = 'home';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
+
+$route['auth'] = 'auth';
+$route['auth/signup'] = 'auth/signup';
+$route['auth/register'] = 'auth/register';
+$route['auth/process_login'] = 'auth/process_login';
+$route['auth/logout'] = 'auth/logout';

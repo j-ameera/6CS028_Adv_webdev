@@ -29,14 +29,19 @@ class Auth extends CI_Controller {
             $username = $this->input->post('username');
             $password = $this->input->post('password');
 
-            $register = $this->Auth_model->register_user($username, $password);
+            // Hash the password before storing it
+            $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+
+            // Pass the hashed password to the model
+            $register = $this->Auth_model->register_user($username, $hashed_password);
 
             if ($register) {
                 $this->session->set_flashdata('success', 'Account created! Welcome!');
+                redirect('auth');
             } else {
                 $this->session->set_flashdata('error', 'Unknown error occurred');
+                redirect('auth/signup');
             }
-            redirect('auth');
         }
     }
 
@@ -57,16 +62,20 @@ class Auth extends CI_Controller {
             $this->session->set_flashdata('error', 'Password must be at least 8 characters long!');
             redirect('Auth');
         } else {
-            $sql = "SELECT * FROM users WHERE username=? AND password=?";
-            $query = $this->db->query($sql, array($username, md5($password)));
+            $sql = "SELECT * FROM users WHERE username=?";
+            $query = $this->db->query($sql, array($username));
 
             if ($query->num_rows() === 1) {
                 $row = $query->row_array();
-                $this->session->set_userdata('username', $row['username']); 
-                $this->session->set_userdata('password', $row['password']); 
-                $this->session->set_userdata('id', $row['id']); 
-                $this->session->set_userdata('role', $row['role']); // Store role in session
-                redirect('home');
+                if (password_verify($password, $row['password'])) {
+                    $this->session->set_userdata('username', $row['username']); 
+                    $this->session->set_userdata('id', $row['id']); 
+                    $this->session->set_userdata('role', $row['role']); // Store role in session
+                    redirect('home');
+                } else {
+                    $this->session->set_flashdata('error', 'Incorrect username or password!');
+                    redirect('Auth'); // Redirect back to login page
+                }
             } else {
                 $this->session->set_flashdata('error', 'Incorrect username or password!');
                 redirect('Auth'); // Redirect back to login page
@@ -83,3 +92,4 @@ class Auth extends CI_Controller {
         redirect('Auth');
     }
 }
+?>
