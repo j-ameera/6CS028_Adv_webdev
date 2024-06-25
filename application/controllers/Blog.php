@@ -1,22 +1,26 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 class Blog extends CI_Controller {
+    public function __construct() {
+        parent::__construct();
+        $this->load->model('Blog_model');
+        $this->load->library('session');
+        $this->load->helper('url');
+        $this->load->library('RoleMiddleware'); // Load the RoleMiddleware
+    }
 
     public function create() {
-        $this->load->view('blog/create');
+        $this->rolemiddleware->checkRole(['admin']);
+        // Existing create post code
     }
 
-    public function store() {
-        $this->load->model('Blog_model');
-        
-        $data = array(
-            'title' => $this->input->post('title'),
-            'content' => $this->input->post('content'),
-            'author_id' => 1  // Assuming user id 1 for now, replace with actual logged-in user id
-        );
-        
-        $this->Blog_model->insert_post($data);
-        $insert_id = $this->db->insert_id();
-        redirect('/home/view/' . $insert_id);
+    public function delete($id) {
+        $this->rolemiddleware->checkRole(['admin']);
+        // Existing delete post code
+    }
+
+    public function view($id) {
+        // Existing view post code
     }
 }
-?>

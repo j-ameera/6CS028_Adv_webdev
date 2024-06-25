@@ -3,7 +3,7 @@ class Blog_model extends CI_Model {
 
     public function __construct() {
         parent::__construct();
-        $this->load->database();  // Ensure the database library is loaded
+        $this->load->database();
     }
 
     public function get_all_posts() {
@@ -18,6 +18,10 @@ class Blog_model extends CI_Model {
 
     public function insert_post($data) {
         return $this->db->insert('blog_posts', $data);
+    }
+
+    public function delete_post($id) {
+        return $this->db->delete('blog_posts', array('id' => $id));
     }
 }
 ?>

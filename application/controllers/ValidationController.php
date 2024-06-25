@@ -1,23 +1,21 @@
-// application/controllers/ValidationController.php
 <?php
-class ValidationController extends CI_Controller {
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-    public function validate_username() {
-        $username = $this->input->post('username');
-        if (strlen($username) < 5) {
-            echo json_encode(['status' => 'error', 'message' => 'Username must be at least 5 characters long.']);
-        } else {
-            echo json_encode(['status' => 'success']);
-        }
+class ValidationController extends CI_Controller {
+    public function __construct() {
+        parent::__construct();
+        $this->load->library('form_validation');
     }
 
-    public function validate_password() {
-        $password = $this->input->post('password');
-        if (strlen($password) < 8) {
-            echo json_encode(['status' => 'error', 'message' => 'Password must be at least 8 characters long.']);
+    public function validate_register() {
+        $this->form_validation->set_rules('username', 'Username', 'required|min_length[5]');
+        $this->form_validation->set_rules('password', 'Password', 'required|min_length[8]');
+        $this->form_validation->set_rules('confirm_password', 'Confirm Password', 'required|matches[password]');
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('auth/registration');
         } else {
-            echo json_encode(['status' => 'success']);
+            // Registration logic here
         }
     }
 }
-?>

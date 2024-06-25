@@ -54,5 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 // Custom Blog Routes
-$route['blog/create'] = 'blog/create';
+$route['admin/create'] = 'blog/create';
+$route['admin/delete/(:num)'] = 'blog/delete/$1';
 $route['blog/store'] = 'blog/store';
+

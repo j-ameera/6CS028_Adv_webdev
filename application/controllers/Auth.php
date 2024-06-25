@@ -29,7 +29,6 @@ class Auth extends CI_Controller {
             $username = $this->input->post('username');
             $password = $this->input->post('password');
 
-            $this->load->model('Auth_model');
             $register = $this->Auth_model->register_user($username, $password);
 
             if ($register) {
@@ -58,7 +57,7 @@ class Auth extends CI_Controller {
             $this->session->set_flashdata('error', 'Password must be at least 8 characters long!');
             redirect('Auth');
         } else {
-            $sql = "SELECT * FROM Users WHERE username=? AND password=?";
+            $sql = "SELECT * FROM users WHERE username=? AND password=?";
             $query = $this->db->query($sql, array($username, md5($password)));
 
             if ($query->num_rows() === 1) {
@@ -66,12 +65,17 @@ class Auth extends CI_Controller {
                 $this->session->set_userdata('username', $row['username']); 
                 $this->session->set_userdata('password', $row['password']); 
                 $this->session->set_userdata('id', $row['id']); 
+                $this->session->set_userdata('role', $row['role']); // Store role in session
                 redirect('home');
             } else {
                 $this->session->set_flashdata('error', 'Incorrect username or password!');
                 redirect('Auth'); // Redirect back to login page
             }
         }
+    }
+
+    public function unauthorized() {
+        echo "Unauthorized Access";
     }
 
     public function logout($value='') {

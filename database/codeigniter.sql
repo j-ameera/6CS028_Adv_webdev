@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 21, 2024 at 07:21 AM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.0.25
+-- Generation Time: Jun 25, 2024 at 02:15 PM
+-- Server version: 10.4.18-MariaDB
+-- PHP Version: 7.4.16
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `codeignator`
+-- Database: `site`
 --
 
 -- --------------------------------------------------------
@@ -29,14 +29,11 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `username` varchar(255) NOT NULL CHECK (CHAR_LENGTH(`username`) >= 5),
-  `password` varchar(255) NOT NULL CHECK (CHAR_LENGTH(`password`) >= 8),
-  `Created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `users`
---
+  `username` varchar(255) NOT NULL CHECK (char_length(`username`) >= 5),
+  `password` varchar(255) NOT NULL CHECK (char_length(`password`) >= 8),
+  `Created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `role` enum('admin','visitor') DEFAULT 'visitor'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indexes for dumped tables
