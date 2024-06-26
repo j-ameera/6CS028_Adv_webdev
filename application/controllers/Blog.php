@@ -24,7 +24,7 @@ class Blog extends CI_Controller {
 
         // Handle file upload
         $config['upload_path'] = './uploads/';
-        $config['allowed_types'] = 'gif|jpg|png';
+        $config['allowed_types'] = 'gif|jpg|jpeg|png';
         $config['max_size'] = 2048; // 2MB max file size
         $this->load->library('upload', $config);
 
