@@ -14,6 +14,32 @@ class Blog extends CI_Controller {
         $this->rolemiddleware = new RoleMiddleware();
     }
 
+    private function get_youtube_videos($query) {
+        $apiKey = 'AIzaSyBNwAiTYbQpWhpLlhSPKlZ4NOvMjWPlEiM';
+        $url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q={$query}&key={$apiKey}";
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_URL, $url);
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        return json_decode($result, true);
+    }
+
+    private function get_gifs($query) {
+        $apiKey = 'O7evqnnVOuut7li5Tcf9QPJOhLZLTSZF';
+        $url = "https://api.giphy.com/v1/gifs/search?api_key={$apiKey}&q={$query}&limit=5";
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_URL, $url);
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        return json_decode($result, true);
+    }
+
     public function create() {
         $this->rolemiddleware->checkRole(['admin']);
         $this->load->view('blog/create');
@@ -44,6 +70,8 @@ class Blog extends CI_Controller {
             'content' => $this->input->post('content'),
             'image' => $image,
             'video_url' => $this->input->post('video_url'),
+            'youtube_keywords' => $this->input->post('youtube_keywords'),
+            'giphy_keywords' => $this->input->post('giphy_keywords'),
             'author_id' => 1  // Assuming user id 1 for now, replace with actual logged-in user id
         );
 
@@ -57,6 +85,20 @@ class Blog extends CI_Controller {
         redirect('/home/view/' . $insert_id);
     }
 
+    public function view($id) {
+        $post = $this->Blog_model->get_post($id);
+        $videos = $this->get_youtube_videos($post->youtube_keywords);
+        $gifs = $this->get_gifs($post->giphy_keywords);
+
+        $data = array(
+            'post' => $post,
+            'videos' => $videos['items'],
+            'gifs' => $gifs['data']
+        );
+
+        $this->load->view('blog/view', $data);
+    }
+
     public function delete($id) {
         $this->rolemiddleware->checkRole(['admin']);
         if ($this->Blog_model->delete_post($id)) {
@@ -65,11 +107,6 @@ class Blog extends CI_Controller {
             $this->session->set_flashdata('error', 'There was a problem deleting the post');
         }
         redirect('/home');
-    }
-
-    public function view($id) {
-        $post = $this->Blog_model->get_post($id);
-        $this->load->view('blog/view', array('post' => $post));
     }
 
     public function index() {

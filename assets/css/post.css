@@ -1,159 +1,148 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
     font-family: serif;
     box-sizing: border-box;
-
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
-
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Playfair Display';
     background-color: #212F3C;
 }
 
-/* hashtag #  copy and paste */
-
-/* blog +navbar (added after blog) section */
-
-/* https://htmlcolorcodes.com/ colour scheme:  purple #AF7AC5, black #34495E;
-*/
-
-
-nav{
+/* Navigation Bar Styles */
+nav {
     background: black;
-    opacity: .7;
+    opacity: 0.7;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
+    display: flex;
     justify-content: flex-end;
-    }
+}
 
-nav h2{
-    justify-content: center;
+nav h2 {
     color: white;
     font-size: 20px;
     padding: 10px;
     font-family: 'La Belle Aurore', 'cursive';
 }
 
-nav:after{
+nav:after {
     content: '';
-    display:block;
+    display: block;
     clear: both;
-
 }
 
-.links{
+.links {
     margin-right: 50px;
-    float: right;
     font-family: 'Playfair Display';
 }
 
-.links li{
+.links li {
     display: inline-block;
-    font-family: 'Playfair Display';
-
 }
 
-.links li a{
-    display: inline-block;
+.links li a {
     color: white;
     padding: 20px;
-    text-decoration: none;
-    font-family: 'Playfair Display';
+    display: inline-block;
 }
 
-.links li a:hover{
+.links li a:hover {
     background: #34495E;
 }
 
-
-.blog{
+/* Blog Section */
+.blog {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 40px;
     border-bottom: 1px solid black;
-} 
+}
 
-.blog-heading{
+.blog-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.blog-heading span{
+.blog-heading span {
     font-size: 1.4rem;
     margin-top: 10px;
-    color: #AF7AC5 ;
+    color: #AF7AC5;
     font-weight: bold;
     font-family: 'Playfair Display';
     text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.322);
 }
 
-.blog-container{
+.blog-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px 0;
     flex-wrap: wrap;
 }
 
-.blog-box{
+.blog-box {
     width: 350px;
     background-color: white;
     border: 1px solid #E5E8E8;
     margin: 20px;
 }
-.blog-img{
+
+.blog-img {
     width: 100%;
     height: auto;
 }
 
-.blog-img img{
+.blog-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.blog-text{
+.blog-text {
     padding: 30px;
     display: flex;
     flex-direction: column;
-
 }
 
-.blog-text span{
+.blog-text span {
     color: #AF7AC5;
     font-size: 0.9rem;
     font-family: 'Playfair Display';
 }
 
-.blog-text .post-title{
+.blog-text .post-title {
     font-size: 1.2rem;
     font-weight: 500;
     color: #34495E;
     font-family: 'Playfair Display';
 }
 
-.blog-text p{
-    margin: 20px 0px;
+.blog-text p {
+    margin: 20px 0;
     color: #566573;
     font-size: 1rem;
     font-family: 'Arial';
@@ -161,46 +150,45 @@ nav:after{
     text-overflow: ellipsis;
 }
 
-.blog-text a{
+.blog-text a {
     color: black;
     font-family: 'Playfair Display';
 }
 
-.blog-text a:hover{
-    color:#AF7AC5;
+.blog-text a:hover {
+    color: #AF7AC5;
     transition: all ease 0.3s;
-    font-family: 'Playfair Display';
 }
 
-@media(max-width:1250px){
-    .blog-box{
+/* Responsive Styles */
+@media(max-width: 1250px) {
+    .blog-box {
         width: 300px;
     }
 }
 
-@media(max-width:1100px){
-    .blog-box{
-        width:70%;
+@media(max-width: 1100px) {
+    .blog-box {
+        width: 70%;
     }
 }
 
-@media(max-width:550px){
-    .blog-box{
+@media(max-width: 550px) {
+    .blog-box {
         margin: 20px 10px;
         width: 100%;
     }
-    #blog{
+    #blog {
         padding: 20px;
     }
 }
 
-/* styling for article */
-
+/* Single Blog Post Styles */
 .blog.single {
     background: #212F3C;
     padding: 20px 50px;
     font-family: 'Playfair Display';
-    font-size: 1.1;
+    font-size: 1.1rem;
 }
 
 .blog.single .post-title {
@@ -209,36 +197,28 @@ nav:after{
     margin-bottom: 30px;
     color: #ffffff;
     font-weight: bold;
-    font-family: 'Playfair Display';
     text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.322);
 }
 
-.blog.single .post-content{
-    align-items: center;
+.blog.single .post-content {
     padding: 10px;
     background: white;
     border: 1px solid #161f27;
     box-shadow: 1px 2px 10px black;
-    margin: 20px 0px;
-    margin-top: 25px;
+    margin: 20px 0;
     color: black;
     font-size: 1.5rem;
-    font-family: 'Playfair Display';
     border-radius: 3px;
-    box-sizing: border-box;
     width: 700px;
-    height: 90%;
 }
 
-.blog.single img{
+.blog.single img {
     width: 20%;
     height: 20%;
     object-position: center;
-
 }
 
-.blog.single span{
+.blog.single span {
     color: #AF7AC5;
     font-size: 1.2rem;
-    font-family: 'Playfair Display';
 }

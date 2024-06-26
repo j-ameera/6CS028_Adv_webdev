@@ -1,0 +1,140 @@
+/* General Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display';
+    background-color: #212F3C;
+}
+
+.container {
+    width: 50%; /* Reduce width */
+    max-width: 500px; /* Reduce max-width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+h2 {
+    color: #AF7AC5;
+    font-family: 'Playfair Display';
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495E;
+    font-family: 'Playfair Display';
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Playfair Display';
+    max-height: 40px; /* Limit height */
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px; /* Reduce height */
+}
+
+.btn {
+    background-color: #AF7AC5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Playfair Display';
+    height: 40px; /* Ensure consistent button height */
+}
+
+.btn:hover {
+    background-color: #9b59b6;
+}
+
+/* Camera Section */
+#video {
+    display: block;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 240px; /* Limit video height */
+}
+
+#snap {
+    background-color: #AF7AC5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Playfair Display';
+    display: block;
+    margin: 10px 0;
+    height: 40px; /* Ensure consistent button height */
+}
+
+#snap:hover {
+    background-color: #9b59b6;
+}
+
+canvas {
+    display: none;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.alert-success {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    width: calc(100% - 20px);
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+

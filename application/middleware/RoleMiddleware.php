@@ -1,13 +1,16 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-
 class RoleMiddleware {
-    public function checkRole($roles) {
-        $CI =& get_instance();
-        $role = $CI->session->userdata('role');
+    private $CI;
 
-        if (!in_array($role, $roles)) {
-            redirect('auth/unauthorized');
+    public function __construct() {
+        $this->CI =& get_instance();
+    }
+
+    public function checkRole($roles) {
+        $userRole = $this->CI->session->userdata('role');
+        if (!in_array($userRole, $roles)) {
+            $this->CI->session->set_flashdata('error', 'You do not have permission to access this page.');
+            redirect('/');
         }
     }
 }

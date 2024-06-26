@@ -30,8 +30,35 @@
                         <iframe width="560" height="315" src="<?php echo str_replace('watch?v=', 'embed/', $post->video_url); ?>" frameborder="0" allowfullscreen></iframe>
                     </div>
                 <?php endif; ?>
-                <a href="<?php echo base_url('blog/delete/' . $post->id); ?>" onclick="return confirm('Are you sure you want to delete this post?');">Delete</a>
+
+                <!-- Only show the delete button if the user is an admin -->
+                <?php if ($this->session->userdata('role') == 'admin'): ?>
+                    <form action="<?php echo site_url('blog/delete/' . $post->id); ?>" method="post">
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this post?');">Delete</button>
+                    </form>
+                <?php endif; ?>
             </div>
+        </div>
+
+        <!-- YouTube Videos Section -->
+        <div class="youtube-videos">
+            <h3>Related YouTube Videos</h3>
+            <?php foreach ($videos as $video): ?>
+                <div class="youtube-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $video['id']['videoId']; ?>" frameborder="0" allowfullscreen></iframe>
+                    <p><?php echo $video['snippet']['title']; ?></p>
+                </div>
+            <?php endforeach; ?>
+        </div>
+
+        <!-- GIFs Section -->
+        <div class="gifs">
+            <h3>Related GIFs</h3>
+            <?php foreach ($gifs as $gif): ?>
+                <div class="gif">
+                    <img src="<?php echo $gif['images']['original']['url']; ?>" alt="GIF">
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
