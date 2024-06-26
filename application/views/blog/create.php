@@ -42,6 +42,11 @@
             <input type="text" name="giphy_keywords" id="giphy_keywords" class="form-control" oninput="fetchGiphySuggestions()">
             <div id="giphySuggestions" class="suggestions" style="display: none;"></div>
         </div>
+        <input type="hidden" name="gif_url" id="gif_url">
+        <div id="gifPreview" style="display: none;">
+            <h4>Selected GIF</h4>
+            <img id="gifImage" src="" alt="Selected GIF" style="max-width: 100%;"/>
+        </div>
         <button type="submit" class="btn btn-primary">Create</button>
     </form>
     
@@ -116,7 +121,9 @@ function fetchGiphySuggestions() {
                 div.className = 'suggestion-item';
                 div.textContent = item.title;
                 div.onclick = () => {
-                    // Do something with the GIF URL, e.g., display it
+                    document.getElementById('gif_url').value = item.url; // Store the GIF URL
+                    document.getElementById('gifImage').src = item.url; // Preview the GIF
+                    document.getElementById('gifPreview').style.display = 'block';
                     suggestionsBox.style.display = 'none';
                 };
                 suggestionsBox.appendChild(div);

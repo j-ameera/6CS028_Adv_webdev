@@ -39,8 +39,10 @@ class Home extends CI_Controller {
         // Pass data to the view
         $data = [
             'post' => $post,
-            'videos' => $videos['items'],
-            'gifs' => $gifs['data']
+            'title' => $post->title, // Ensure title is passed
+            'content' => $post->content, // Ensure content is passed
+            'videos' => isset($videos['items']) ? $videos['items'] : [],
+            'gifs' => isset($gifs['data']) ? $gifs['data'] : []
         ];
 
         // Load the post view

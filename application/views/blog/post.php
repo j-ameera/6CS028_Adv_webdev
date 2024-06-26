@@ -31,6 +31,13 @@
                     </div>
                 <?php endif; ?>
 
+                <!-- Display the selected GIF -->
+                <?php if (!empty($post->gif_url)): ?>
+                    <div class="blog-gif">
+                        <img src="<?php echo $post->gif_url; ?>" alt="GIF">
+                    </div>
+                <?php endif; ?>
+
                 <!-- Only show the delete button if the user is an admin -->
                 <?php if ($this->session->userdata('role') == 'admin'): ?>
                     <form action="<?php echo site_url('blog/delete/' . $post->id); ?>" method="post">
@@ -41,25 +48,17 @@
         </div>
 
         <!-- YouTube Videos Section -->
-        <div class="youtube-videos">
-            <h3>Related YouTube Videos</h3>
-            <?php foreach ($videos as $video): ?>
-                <div class="youtube-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $video['id']['videoId']; ?>" frameborder="0" allowfullscreen></iframe>
-                    <p><?php echo $video['snippet']['title']; ?></p>
-                </div>
-            <?php endforeach; ?>
-        </div>
-
-        <!-- GIFs Section -->
-        <div class="gifs">
-            <h3>Related GIFs</h3>
-            <?php foreach ($gifs as $gif): ?>
-                <div class="gif">
-                    <img src="<?php echo $gif['images']['original']['url']; ?>" alt="GIF">
-                </div>
-            <?php endforeach; ?>
-        </div>
+        <?php if (!empty($videos)) : ?>
+            <div class="youtube-videos">
+                <h3>Related YouTube Videos</h3>
+                <?php foreach ($videos as $video): ?>
+                    <div class="youtube-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/<?php echo $video['id']['videoId']; ?>" frameborder="0" allowfullscreen></iframe>
+                        <p><?php echo $video['snippet']['title']; ?></p>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        <?php endif; ?>
     </div>
 </section>
 

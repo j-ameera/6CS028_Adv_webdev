@@ -70,6 +70,7 @@ class Blog extends CI_Controller {
             'content' => $this->input->post('content'),
             'image' => $image,
             'video_url' => $this->input->post('video_url'),
+            'gif_url' => $this->input->post('gif_url'), // Ensure gif_url is included
             'youtube_keywords' => $this->input->post('youtube_keywords'),
             'giphy_keywords' => $this->input->post('giphy_keywords'),
             'author_id' => 1  // Assuming user id 1 for now, replace with actual logged-in user id
