@@ -28,6 +28,16 @@
                         <span><?php echo date('d F Y', strtotime($post->created_at)); ?></span>
                         <a class="post-title"><?php echo $post->title; ?></a>
                         <p><?php echo substr($post->content, 0, 100); ?>...</p>
+                        <?php if (!empty($post->video_url)): ?>
+                            <div class="youtube-video">
+                                <iframe width="560" height="315" src="<?php echo $post->video_url; ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        <?php endif; ?>
+                        <?php if (!empty($post->giphy_url)): ?>
+                            <div class="giphy-gif">
+                                <img src="<?php echo $post->giphy_url; ?>" alt="GIF">
+                            </div>
+                        <?php endif; ?>
                         <a href="<?php echo base_url('home/view/' . $post->id); ?>">Read More</a>
                         <?php if ($this->session->userdata('role') == 'admin'): ?>
                             <a href="<?php echo base_url('blog/delete/' . $post->id); ?>" onclick="return confirm('Are you sure you want to delete this post?');">Delete</a>
