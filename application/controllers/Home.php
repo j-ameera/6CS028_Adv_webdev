@@ -13,6 +13,8 @@ class Home extends CI_Controller {
 
         // Load the Blog model
         $this->load->model('Blog_model');
+        $this->load->helper(['url', 'form']);
+        $this->load->library('session');
     }
     
     public function index() {
@@ -32,9 +34,10 @@ class Home extends CI_Controller {
             show_404();
         }
 
-        // Fetch related videos and gifs
+        // Fetch related videos and gifs for standalone post view
         $videos = $this->get_youtube_videos($post->title);
         $gifs = $this->get_gifs($post->title);
+        $comments = $this->Blog_model->get_comments($id); // Fetch comments
 
         // Pass data to the view
         $data = [
@@ -42,7 +45,8 @@ class Home extends CI_Controller {
             'title' => $post->title, // Ensure title is passed
             'content' => $post->content, // Ensure content is passed
             'videos' => isset($videos['items']) ? $videos['items'] : [],
-            'gifs' => isset($gifs['data']) ? $gifs['data'] : []
+            'gifs' => isset($gifs['data']) ? $gifs['data'] : [],
+            'comments' => $comments // Pass comments to the view
         ];
 
         // Load the post view
@@ -50,7 +54,7 @@ class Home extends CI_Controller {
     }
 
     private function get_youtube_videos($query) {
-        $apiKey = 'AIzaSyBNwAiTYbQpWhpLlhSPKlZ4NOvMjWPlEiM';
+        $apiKey = 'YOUR_YOUTUBE_API_KEY';
         $url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q={$query}&key={$apiKey}";
 
         $ch = curl_init();
@@ -63,7 +67,7 @@ class Home extends CI_Controller {
     }
 
     private function get_gifs($query) {
-        $apiKey = 'O7evqnnVOuut7li5Tcf9QPJOhLZLTSZF';
+        $apiKey = 'YOUR_GIPHY_API_KEY';
         $url = "https://api.giphy.com/v1/gifs/search?api_key={$apiKey}&q={$query}&limit=5";
 
         $ch = curl_init();

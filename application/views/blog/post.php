@@ -25,6 +25,9 @@
             <div class="blog-text">
                 <span><?php echo date('d F Y', strtotime($post->created_at)); ?></span>
                 <p><?php echo nl2br($post->content); ?></p>
+                <?php if (!empty($post->hashtags)): ?>
+                    <p>Hashtags: <?php echo $post->hashtags; ?></p>
+                <?php endif; ?>
                 <?php if (!empty($post->video_url)): ?>
                     <div class="blog-video">
                         <iframe width="560" height="315" src="<?php echo str_replace('watch?v=', 'embed/', $post->video_url); ?>" frameborder="0" allowfullscreen></iframe>
@@ -34,7 +37,7 @@
                 <!-- Display the selected GIF -->
                 <?php if (!empty($post->gif_url)): ?>
                     <div class="blog-gif">
-                        <img src="<?php echo $post->gif_url; ?>" alt="GIF">
+                        <img src="<?php echo $post->gif_url; ?>" alt="GIF" onerror="this.style.display='none'">
                     </div>
                 <?php endif; ?>
 
@@ -48,7 +51,7 @@
         </div>
 
         <!-- YouTube Videos Section -->
-        <?php if (!empty($videos)) : ?>
+        <?php if (!empty($videos)): ?>
             <div class="youtube-videos">
                 <h3>Related YouTube Videos</h3>
                 <?php foreach ($videos as $video): ?>
@@ -59,6 +62,42 @@
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
+    </div>
+
+    <!-- Comments Section -->
+    <div class="comments-section">
+        <h3>Comments</h3>
+        <?php if (!empty($comments)): ?>
+            <?php foreach ($comments as $comment): ?>
+                <div class="comment">
+                    <p><?php echo $comment->content; ?></p>
+                    <span>by <?php echo $comment->author; ?> on <?php echo date('d F Y', strtotime($comment->created_at)); ?></span>
+                    <a href="#" class="reply" data-comment-id="<?php echo $comment->id; ?>">Reply</a>
+                    <!-- Display replies -->
+                    <?php if (!empty($comment->replies)): ?>
+                        <div class="replies">
+                            <?php foreach ($comment->replies as $reply): ?>
+                                <div class="reply-comment">
+                                    <p><?php echo $reply->content; ?></p>
+                                    <span>by <?php echo $reply->author; ?> on <?php echo date('d F Y', strtotime($reply->created_at)); ?></span>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <p>No comments yet. Be the first to comment!</p>
+        <?php endif; ?>
+
+        <!-- Comment Form -->
+        <form action="<?php echo site_url('blog/add_comment/' . $post->id); ?>" method="post">
+            <div class="form-group">
+                <label for="comment_content">Add a comment</label>
+                <textarea name="content" id="comment_content" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Post Comment</button>
+        </form>
     </div>
 </section>
 

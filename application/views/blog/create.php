@@ -47,6 +47,10 @@
             <h4>Selected GIF</h4>
             <img id="gifImage" src="" alt="Selected GIF" style="max-width: 100%;"/>
         </div>
+        <div class="form-group">
+            <label for="hashtags">Hashtags</label>
+            <input type="text" name="hashtags" id="hashtags" class="form-control" placeholder="e.g. #coding, #php">
+        </div>
         <button type="submit" class="btn btn-primary">Create</button>
     </form>
     

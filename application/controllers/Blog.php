@@ -5,17 +5,15 @@ class Blog extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('Blog_model');
-        $this->load->library('session');
-        $this->load->helper('url');
-        $this->load->helper('form'); // Ensure form helper is loaded for file upload
+        $this->load->library(['session', 'upload']);
+        $this->load->helper(['url', 'form']);
 
-        // Manually load the RoleMiddleware class from the custom directory
         require_once(APPPATH . 'middleware/RoleMiddleware.php');
         $this->rolemiddleware = new RoleMiddleware();
     }
 
     private function get_youtube_videos($query) {
-        $apiKey = 'AIzaSyBNwAiTYbQpWhpLlhSPKlZ4NOvMjWPlEiM';
+        $apiKey = 'YOUR_YOUTUBE_API_KEY';
         $url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q={$query}&key={$apiKey}";
 
         $ch = curl_init();
@@ -28,7 +26,7 @@ class Blog extends CI_Controller {
     }
 
     private function get_gifs($query) {
-        $apiKey = 'O7evqnnVOuut7li5Tcf9QPJOhLZLTSZF';
+        $apiKey = 'YOUR_GIPHY_API_KEY';
         $url = "https://api.giphy.com/v1/gifs/search?api_key={$apiKey}&q={$query}&limit=5";
 
         $ch = curl_init();
@@ -52,7 +50,7 @@ class Blog extends CI_Controller {
         $config['upload_path'] = './uploads/';
         $config['allowed_types'] = 'gif|jpg|jpeg|png';
         $config['max_size'] = 2048; // 2MB max file size
-        $this->load->library('upload', $config);
+        $this->upload->initialize($config);
 
         $image = null;
         if ($this->upload->do_upload('image')) {
@@ -70,10 +68,11 @@ class Blog extends CI_Controller {
             'content' => $this->input->post('content'),
             'image' => $image,
             'video_url' => $this->input->post('video_url'),
-            'gif_url' => $this->input->post('gif_url'), // Ensure gif_url is included
+            'gif_url' => $this->input->post('gif_url'),
             'youtube_keywords' => $this->input->post('youtube_keywords'),
             'giphy_keywords' => $this->input->post('giphy_keywords'),
-            'author_id' => 1  // Assuming user id 1 for now, replace with actual logged-in user id
+            'hashtags' => $this->input->post('hashtags'),
+            'author_id' => $this->session->userdata('user_id') ?? 1  // Use logged-in user id or 1 as default
         );
 
         if ($this->Blog_model->insert_post($data)) {
@@ -90,11 +89,13 @@ class Blog extends CI_Controller {
         $post = $this->Blog_model->get_post($id);
         $videos = $this->get_youtube_videos($post->youtube_keywords);
         $gifs = $this->get_gifs($post->giphy_keywords);
+        $comments = $this->Blog_model->get_comments($id);
 
         $data = array(
             'post' => $post,
             'videos' => $videos['items'],
-            'gifs' => $gifs['data']
+            'gifs' => $gifs['data'],
+            'comments' => $comments
         );
 
         $this->load->view('blog/view', $data);
@@ -113,6 +114,33 @@ class Blog extends CI_Controller {
     public function index() {
         $posts = $this->Blog_model->get_all_posts();
         $this->load->view('blog/index', array('posts' => $posts));
+    }
+
+    // Add Comment
+    public function add_comment($post_id) {
+        $data = array(
+            'post_id' => $post_id,
+            'content' => $this->input->post('content'),
+            'author' => $this->session->userdata('username') ?? 'Visitor',
+            'created_at' => date('Y-m-d H:i:s')
+        );
+
+        $this->Blog_model->add_comment($data);
+        redirect('home/view/' . $post_id);
+    }
+
+    // Add Reply
+    public function add_reply($comment_id) {
+        $data = array(
+            'comment_id' => $comment_id,
+            'content' => $this->input->post('content'),
+            'author' => $this->session->userdata('username') ?? 'Visitor',
+            'created_at' => date('Y-m-d H:i:s')
+        );
+
+        $this->Blog_model->add_reply($data);
+        $post_id = $this->Blog_model->get_post_id_by_comment($comment_id);
+        redirect('home/view/' . $post_id);
     }
 }
 ?>
