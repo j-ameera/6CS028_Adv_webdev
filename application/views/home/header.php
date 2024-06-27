@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- CSS file/style -->
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/style2.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/navbar.css'); ?>" />
     <!-- Test of custom font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

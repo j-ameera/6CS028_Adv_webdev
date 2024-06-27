@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 26, 2024 at 11:53 PM
+-- Generation Time: Jun 27, 2024 at 04:06 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
@@ -33,20 +33,21 @@ CREATE TABLE `blog_posts` (
   `content` text NOT NULL,
   `image` varchar(255) DEFAULT NULL,
   `video_url` varchar(255) DEFAULT NULL,
-  `author_id` int(11) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `gif_url` varchar(255) DEFAULT NULL,
   `youtube_keywords` varchar(255) DEFAULT NULL,
-  `giphy_keywords` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `giphy_keywords` varchar(255) DEFAULT NULL,
+  `author_id` int(11) NOT NULL,
+  `created_at` datetime DEFAULT current_timestamp(),
+  `hashtags` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `blog_posts`
 --
 
-INSERT INTO `blog_posts` (`id`, `title`, `content`, `image`, `video_url`, `author_id`, `created_at`, `youtube_keywords`, `giphy_keywords`) VALUES
-(20, 'standalone image test', '123', '599cf41b27257fbfaad850c2366ed254.jpg', '', 1, '2024-06-26 20:01:57', '', ''),
-(21, 'yt standalone test', 'yt test', '370358583-256-k517341.jpg', 'https://www.youtube.com/watch?v=st4wcpjZeQQ', 1, '2024-06-26 20:02:56', '', ''),
-(29, 'gif test!!', 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello ', 'meeee.png', '', 1, '2024-06-26 21:48:13', '', 'HELLO');
+INSERT INTO `blog_posts` (`id`, `title`, `content`, `image`, `video_url`, `gif_url`, `youtube_keywords`, `giphy_keywords`, `author_id`, `created_at`, `hashtags`) VALUES
+(16, 'testing hashtags again.', 'holy hell.', 'image1.jpg', 'https://www.youtube.com/watch?v=ZsT1nj6UfvA', 'https://media4.giphy.com/media/7wk6RQYXDDytXalsL4/giphy.gif?cid=bedcbe04q7n5ix522gvdibeut6wusrw125gc8vkktvtfyuon&ep=v1_gifs_search&rid=giphy.gif&ct=g', '', 'nope', 1, '2024-06-27 02:44:59', '#arcane #test'),
+(17, 'testing hashtags again', 'hello', 'DhxlblnXkAAg2sJ1.jpg', 'https://www.youtube.com/watch?v=Pxj2hWgodag', 'https://media2.giphy.com/media/GRPy8MKag9U1U88hzY/giphy.gif?cid=bedcbe047mad3335iji8vl24kfg5opdern19jb54rl4t1ysc&ep=v1_gifs_search&rid=giphy.gif&ct=g', 'gwgaw', 'hello', 1, '2024-06-27 03:02:54', '#hello');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +67,7 @@ ALTER TABLE `blog_posts`
 -- AUTO_INCREMENT for table `blog_posts`
 --
 ALTER TABLE `blog_posts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

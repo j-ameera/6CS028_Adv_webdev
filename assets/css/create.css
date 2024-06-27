@@ -11,6 +11,7 @@ body {
     padding: 0px;
     font-family: 'Playfair Display';
     background-color: #212F3C;
+    padding-top: 80px; /* Increase padding to push content below the navbar */
 }
 
 .container {
@@ -138,3 +139,81 @@ canvas {
     background-color: #f0f0f0;
 }
 
+/* Navigation Bar Styles */
+nav {
+    overflow: hidden; /* Ensure no overflow occurs */
+    background: black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Control height with padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    position: fixed; /* Make the navbar fixed */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the navbar spans the full width */
+    height: 60px; /* Set a fixed height */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+nav h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'La Belle Aurore', 'cursive';
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Ensure the links are centered vertically */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px; /* Adjust padding to control height */
+    display: block;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+}
+
+nav ul li a:hover {
+    background: #34495E;
+}
+
+/* Ensure the content below the navbar is not hidden */
+body {
+    padding-top: 80px; /* Increase padding to push content below the navbar */
+}
+
+/* Search Bar Styles */
+#search-bar {
+    margin-bottom: 20px;
+}
+
+#search-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 70px; /* Add margin-top to move the search bar down */
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: dodgerblue;
+}

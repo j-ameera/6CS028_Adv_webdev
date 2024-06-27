@@ -19,43 +19,11 @@ body {
     background-color: #212F3C;
 }
 
-/* Navigation Bar Styles */
-nav {
-    background: black;
-    opacity: 0.7;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav h2 {
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    font-family: 'La Belle Aurore', cursive;
-}
-
-.links {
-    margin-right: 50px;
-}
-
-.links li {
-    display: inline-block;
-}
-
-.links li a {
-    color: white;
-    padding: 20px;
-    display: inline-block;
-}
-
-.links li a:hover {
-    background: #34495E;
-}
-
 /* Blog Section */
+#blog {
+    padding-top: 80px; /* Reduce padding to bring content closer to navbar */
+}
+
 .blog.single {
     background: #212F3C;
     padding: 20px 50px;
@@ -85,8 +53,16 @@ nav h2 {
     margin: 20px;
 }
 
-.blog-img img {
+/* Media Elements */
+.blog-img, .blog-gif, .blog-video, .youtube-video {
     width: 100%;
+    height: 400px; /* Set a fixed height for media elements */
+    overflow: hidden;
+}
+
+.blog-img img, .blog-gif img, .blog-video iframe, .youtube-video iframe {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -107,86 +83,103 @@ nav h2 {
     font-size: 1rem;
 }
 
-/* Comments Section */
-.comments-section {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 800px;
-}
-
-.comments-section h3 {
-    font-size: 1.5rem;
-    color: #AF7AC5;
-    margin-bottom: 10px;
-}
-
-.comment, .reply-comment {
-    background-color: #000000;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-
-.comment p, .reply-comment p {
-    color: #000000;
-    font-size: 1rem;
-    margin-bottom: 5px;
-}
-
-.comment span, .reply-comment span {
-    color: #000000;
-    font-size: 0.9rem;
-}
-
-.comment .reply, .reply-comment .reply {
-    color: #3498db;
-    font-size: 0.9rem;
-    cursor: pointer;
-}
-
-.comment .reply:hover, .reply-comment .reply:hover {
-    text-decoration: underline;
-}
-
-.replies {
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-.form-group {
-    margin-top: 10px;
-}
-
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #34495e;
-    border-radius: 10px;
-    background-color: #ffffff;
-    color: #000000;
-}
-
-textarea:focus {
-    outline: none;
-    border-color: #3498db;
-}
-
-button {
-    padding: 10px 15px;
-    background-color: #3498db;
+/* Delete Button Styles */
+form button.btn-danger {
+    background-color: #e74c3c;
     color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Playfair Display';
+    margin-top: 10px;
+}
+
+form button.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Comments Section */
+.comments-section {
+    margin-top: 20px !important;
+    padding: 10px !important; /* Adjusted padding for smaller size */
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    max-width: 600px !important; /* Smaller max-width */
+    text-align: center !important; /* Centering comments section */
+    margin-left: auto !important; /* Ensuring centering */
+    margin-right: auto !important; /* Ensuring centering */
+}
+
+.comments-section h3 {
+    font-size: 1.2rem !important; /* Smaller font size */
+    color: #AF7AC5 !important;
+    margin-bottom: 10px !important;
+}
+
+.comment, .reply-comment {
+    background-color: #ffffff !important; /* Changed background to white */
+    padding: 10px !important; /* Adjusted padding for smaller size */
+    border-radius: 10px !important;
+    margin-bottom: 10px !important;
+    border: 1px solid #E5E8E8 !important; /* Added border for separation */
+}
+
+.comment p, .reply-comment p {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    margin-bottom: 5px !important;
+}
+
+.comment span, .reply-comment span {
+    color: #000000 !important;
+    font-size: 0.9rem !important;
+}
+
+.comment .reply, .reply-comment .reply {
+    color: #3498db !important;
+    font-size: 0.9rem !important;
+    cursor: pointer !important;
+}
+
+.comment .reply:hover, .reply-comment .reply:hover {
+    text-decoration: underline !important;
+}
+
+.replies {
+    margin-left: 20px !important;
+    margin-top: 10px !important;
+}
+
+.form-group {
+    margin-top: 10px !important;
+}
+
+textarea {
+    width: 100% !important;
+    padding: 10px !important;
+    border: 1px solid #34495e !important;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: #3498db !important;
+}
+
+button {
+    background-color: #AF7AC5 !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-family: 'Playfair Display' !important;
 }
 
 button:hover {
-    background-color: #2980b9;
-}
-
-.comment .label{
-    color: #ff0000;
+    background-color: #9b59b6 !important;
 }

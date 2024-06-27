@@ -1,0 +1,51 @@
+/* Navigation Bar Styles */
+body nav {
+    position: fixed; /* Fix the navbar to the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the navbar spans the full width */
+    height: 60px; /* Set a fixed height */
+    background: black;
+    opacity: 1; /* Make the navbar fully opaque */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Control height with padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+body nav h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'La Belle Aurore', cursive;
+    margin: 0; /* Remove default margin */
+}
+
+body nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Ensure the links are centered vertically */
+}
+
+body nav ul li {
+    list-style: none;
+}
+
+body nav ul li a {
+    color: white;
+    padding: 10px 20px; /* Adjust padding to control height */
+    display: block;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+body nav ul li a:hover {
+    background: #34495E;
+}
+
+/* Ensure the content below the navbar is not hidden */
+body {
+    padding-top: 80px; /* Increase padding to 80px to push content below navbar */
+}
