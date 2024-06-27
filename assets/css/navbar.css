@@ -49,3 +49,35 @@ body nav ul li a:hover {
 body {
     padding-top: 80px; /* Increase padding to 80px to push content below navbar */
 }
+
+/* Responsive Media Queries */
+/* Programmer note: Media query for screens 768px and smaller */
+@media (max-width: 768px) {
+    body nav {
+        height: auto; /* Allow height to adjust based on content */
+        flex-direction: column; /* Stack items vertically */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    body nav h2 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin-bottom: 10px; /* Add margin below the heading */
+    }
+
+    body nav ul {
+        flex-direction: row; /* Ensure list items are in a row */
+        width: 100%; /* Ensure full width for list items */
+        justify-content: space-around; /* Distribute space around list items */
+        align-items: center; /* Center align items */
+    }
+
+    body nav ul li a {
+        padding: 10px; /* Adjust padding for smaller screens */
+        width: auto; /* Allow links to take up their natural width */
+        text-align: center; /* Center align text */
+    }
+
+    body {
+        padding-top: 100px; /* Adjust padding to push content below navbar */
+    }
+}

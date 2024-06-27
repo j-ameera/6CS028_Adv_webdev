@@ -1,3 +1,4 @@
+/* Registration CSS */
 body {
     background-color: #212F3C;
     display: flex;
@@ -13,7 +14,8 @@ body {
 }
 
 form {
-    width: 500px; /* Increased width for the form */
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 500px; /* Ensure form width doesn't exceed 500px */
     border: 2px solid rgb(177, 177, 177);
     padding: 40px; /* Increased padding for more space inside the form */
     background: white;
@@ -32,14 +34,20 @@ h2 {
     margin-bottom: 20px; /* Add space below the alert */
 }
 
+.input-container {
+    margin-bottom: 40px; /* Increased margin to ensure consistent spacing */
+    position: relative;
+}
+
 input {
     display: block;
     border: 2px solid;
-    width: 95%;
+    width: 100%; /* Adjusted for responsiveness */
+    max-width: 95%; /* Ensure input width doesn't exceed 95% */
     padding: 10px;
-    margin: 10px;
+    margin: 0; /* Remove margin to control spacing with container */
     border-radius: 1px;
-    margin-bottom: 20px; /* Increased margin for better spacing */
+    margin-bottom: 10px; /* Reduced margin-bottom to accommodate error message */
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -57,12 +65,61 @@ button {
     border: none;
 }
 
+/* New CSS for the link */
+a.Registration {
+    color: #212F3C; /* Change this color to your desired color */
+    text-decoration: none; /* Remove underline if desired */
+    display: inline-block;
+    margin-top: 20px; /* Add margin to create space above the link */
+    font-size: 14px;
+}
 
-form .alert {
-    position: absolute; /* Positioned relative to the form */
-    top: 10px; /* Adjust top position as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 40px); /* Adjust width to fit within the form padding */
-    box-sizing: border-box; /* Include padding in width calculation */
+a.Registration:hover {
+    color: #0864c4; /* Optional: Change color on hover */
+}
+
+/* Error messages */
+small.form-text {
+    font-size: 100%;
+    color: red;
+    margin-top: 5px; /* Adjusted value for spacing */
+    margin-bottom: 20px; /* Ensure there's enough space after the error message */
+    display: block; /* Ensure the small tag takes up space */
+    min-height: 20px; /* Ensure space is reserved for the error message */
+}
+
+/* Responsive Media Queries */
+/* Programmer note: Media query for screens 768px and smaller */
+@media (max-width: 768px) {
+    body {
+        padding: 20px; /* Added padding for smaller screens */
+    }
+
+    form {
+        width: 100%; /* Adjust form width for smaller screens */
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 36px; /* Adjusted font size for smaller screens */
+    }
+
+    .input-container {
+        margin-bottom: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    input {
+        width: 100%; /* Ensure input takes full width on smaller screens */
+        margin-bottom: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    button {
+        width: 100%; /* Ensure button takes full width on smaller screens */
+        margin-top: 20px; /* Add margin-top for better spacing */
+    }
+
+    a.Registration {
+        text-align: center; /* Center align the registration link */
+        width: 100%; /* Ensure link takes full width on smaller screens */
+    }
 }

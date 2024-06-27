@@ -1,33 +1,33 @@
 /* General Styles */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: serif;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Playfair Display';
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
     background-color: #212F3C;
     padding-top: 80px; /* Increase padding to push content below the navbar */
 }
 
 .container {
-    width: 50%; /* Reduce width */
-    max-width: 500px; /* Reduce max-width */
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Ensure content does not overflow */
+    overflow: hidden;
 }
 
 h2 {
     color: #AF7AC5;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -40,7 +40,7 @@ h2 {
     display: block;
     margin-bottom: 5px;
     color: #34495E;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
 }
 
 .form-group input[type="text"],
@@ -50,8 +50,7 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-family: 'Playfair Display';
-    max-height: 40px; /* Limit height */
+    font-family: 'Playfair Display', serif;
 }
 
 .form-group textarea {
@@ -66,7 +65,7 @@ h2 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     height: 40px; /* Ensure consistent button height */
 }
 
@@ -90,7 +89,7 @@ h2 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     display: block;
     margin: 10px 0;
     height: 40px; /* Ensure consistent button height */
@@ -160,7 +159,7 @@ nav {
 nav h2 {
     color: white;
     font-size: 20px;
-    font-family: 'La Belle Aurore', 'cursive';
+    font-family: 'La Belle Aurore', cursive;
     margin: 0; /* Remove default margin */
 }
 
@@ -180,16 +179,183 @@ nav ul li a {
     padding: 10px 20px; /* Adjust padding to control height */
     display: block;
     text-decoration: none;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
 }
 
 nav ul li a:hover {
     background: #34495E;
 }
 
-/* Ensure the content below the navbar is not hidden */
-body {
-    padding-top: 80px; /* Increase padding to push content below the navbar */
+/* Blog Post Styles */
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid black;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #AF7AC5;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.322);
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 100%;
+    max-width: 350px;
+    height: 500px; /* Set a fixed height for each blog post container */
+    background-color: white;
+    border: 1px solid #E5E8E8;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.blog-img {
+    width: 100%;
+    height: 250px; /* Set a fixed height for all images */
+    overflow: hidden;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area */
+    object-position: center; /* Centers the image */
+}
+
+.blog-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure spacing between items */
+    height: 100%; /* Ensure text content fills the remaining space */
+}
+
+.blog-text span {
+    color: #AF7AC5;
+    font-size: 0.9rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-text .post-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #34495E;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-text p {
+    margin: 10px 0; /* Reduced margin for better spacing */
+    color: #566573;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-text a {
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-text a:hover {
+    color: #AF7AC5;
+    transition: all ease 0.3s;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1250px) {
+    .blog-box {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .blog-box {
+        width: 70%;
+    }
+}
+
+@media (max-width: 550px) {
+    .blog-box {
+        margin: 20px 10px;
+        width: 100%;
+    }
+    .blog {
+        padding: 20px;
+    }
+    body {
+        padding-top: 120px; /* Adjust padding to push content further below the navbar */
+    }
+}
+
+/* Styling for article */
+.blog.single {
+    background: #212F3C;
+    padding: 20px 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog.single .post-title {
+    font-size: 2rem;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.322);
+}
+
+.blog.single .post-content {
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border: 1px solid #161f27;
+    box-shadow: 1px 2px 10px black;
+    margin: 20px 0;
+    margin-top: 25px;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+}
+
+.blog.single img {
+    width: 100%;
+    height: auto;
+    object-position: center;
+}
+
+.blog.single span {
+    color: #AF7AC5;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Search Bar Styles */
@@ -216,4 +382,25 @@ body {
 #search-input:focus {
     outline: none;
     border-color: dodgerblue;
+}
+
+/* Styles for suggestions */
+#suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    background: white;
+    position: absolute;
+    width: calc(100% - 20px);
+    z-index: 1000; /* Ensure it stays above other elements */
+    display: none; /* Hide by default */
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
 }

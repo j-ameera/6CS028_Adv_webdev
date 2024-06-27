@@ -46,7 +46,7 @@ body {
 }
 
 .blog-box {
-    width: 100%;
+    width: 100%; /* Adjusted for responsiveness */
     max-width: 800px;
     background-color: white;
     border: 1px solid #E5E8E8;
@@ -105,7 +105,7 @@ form button.btn-danger:hover {
     padding: 10px !important; /* Adjusted padding for smaller size */
     background-color: #ffffff !important;
     border-radius: 10px !important;
-    width: 100% !important;
+    width: 100% !important; /* Adjusted for responsiveness */
     max-width: 600px !important; /* Smaller max-width */
     text-align: center !important; /* Centering comments section */
     margin-left: auto !important; /* Ensuring centering */
@@ -122,7 +122,7 @@ form button.btn-danger:hover {
     background-color: #ffffff !important; /* Changed background to white */
     padding: 10px !important; /* Adjusted padding for smaller size */
     border-radius: 10px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 20px !important;
     border: 1px solid #E5E8E8 !important; /* Added border for separation */
 }
 
@@ -157,7 +157,7 @@ form button.btn-danger:hover {
 }
 
 textarea {
-    width: 100% !important;
+    width: 100% !important; /* Adjusted for responsiveness */
     padding: 10px !important;
     border: 1px solid #34495e !important;
     border-radius: 10px !important;
@@ -182,4 +182,43 @@ button {
 
 button:hover {
     background-color: #9b59b6 !important;
+}
+
+/* Responsive Media Queries */
+/* Programmer note: Media query for screens 768px and smaller */
+@media (max-width: 768px) {
+    .blog-container {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    .blog-box {
+        width: 100%; /* Ensure full width for smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .blog-img, .blog-gif, .blog-video, .youtube-video {
+        height: auto; /* Adjust height to be flexible */
+    }
+
+    .comments-section {
+        padding: 5px; /* Adjusted padding for smaller screens */
+        max-width: 100%; /* Ensure full width for comments section */
+    }
+
+    .comment, .reply-comment {
+        padding: 5px; /* Adjusted padding for smaller screens */
+    }
+
+    .form-group {
+        margin-top: 5px !important; /* Adjusted margin for smaller screens */
+    }
+
+    button {
+        width: 100%; /* Ensure button takes full width on smaller screens */
+        margin-top: 10px; /* Add margin-top for better spacing */
+    }
+
+    textarea {
+        width: 100%; /* Ensure textarea takes full width on smaller screens */
+    }
 }

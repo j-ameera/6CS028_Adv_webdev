@@ -1,28 +1,29 @@
+/* Login CSS */
 body {
     background-color: #212F3C;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70VH;
+    height: 100vh; /* Adjusted to make sure it covers the full viewport height */
     font-weight: bold;
-
 }
 
-*{
+* {
     font-family: 'Playfair Display', serif;
     box-sizing: border-box;
 }
 
 form {
-    width: 400px;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 500px; /* Ensure form width doesn't exceed 500px */
     border: 2px solid rgb(177, 177, 177);
-    padding: 30px;
+    padding: 40px;
     background: white;
 }
 
 h2 {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Adjusted margins for more space */
     margin-top: -2px;
     font-family: 'La Belle Aurore', 'cursive';
     font-size: 50px;
@@ -31,11 +32,12 @@ h2 {
 input {
     display: block;
     border: 2px solid;
-    width: 95%;
+    width: 100%; /* Adjusted for responsiveness */
+    max-width: 95%; /* Ensure input width doesn't exceed 95% */
     padding: 10px;
-    margin: 10px;
+    margin: 30px 0; /* Adjusted margin for better spacing */
     border-radius: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increased margin for better spacing */
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -45,22 +47,55 @@ input {
 
 button {
     float: right;
-    background:#212F3C;
+    background: #212F3C;
     padding: 10px 15px;
     color: white;
     border-radius: 5px;
-    margin-right: 10px; 
+    margin-right: 10px;
     border: none;
 }
 
-.Registration {
+a.Registration {
     font-size: 14px;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
     color: #212F3C;
-    
+    margin-top: 20px; /* Add margin to create space above the link */
 }
 
+a.Registration:hover {
+    color: #0864c4; /* Optional: Change color on hover */
+}
 
+/* Responsive Media Queries */
+/* Programmer note: Media query for screens 768px and smaller */
+@media (max-width: 768px) {
+    body {
+        padding: 20px; /* Added padding for smaller screens */
+    }
 
+    form {
+        width: 100%; /* Adjust form width for smaller screens */
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 36px; /* Adjusted font size for smaller screens */
+    }
+
+    input {
+        width: 100%; /* Ensure input takes full width on smaller screens */
+        margin: 20px 0; /* Adjusted margin for better spacing on smaller screens */
+    }
+
+    button {
+        width: 100%; /* Ensure button takes full width on smaller screens */
+        margin-top: 20px; /* Add margin-top for better spacing */
+    }
+
+    a.Registration {
+        text-align: center; /* Center align the registration link */
+        width: 100%; /* Ensure link takes full width on smaller screens */
+    }
+}
