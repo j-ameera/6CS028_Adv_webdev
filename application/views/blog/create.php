@@ -57,7 +57,7 @@
     <h2>Capture Image</h2>
     <video id="video" width="320" height="240" autoplay></video>
     <button id="snap">Capture</button>
-    <canvas id="canvas" width="320" height="240" style="display: none;"></canvas>
+    <canvas id="canvas" width="1000" height="667" style="display: none;"></canvas>
 
     <script src="<?php echo base_url('assets/js/camera.js'); ?>"></script>
     <style>
@@ -80,64 +80,63 @@
             background-color: #f0f0f0;
         }
     </style>
-<script>
-function fetchYouTubeSuggestions() {
-    const keywords = document.getElementById('youtube_keywords').value;
-    if (keywords.length < 3) {
-        document.getElementById('youtubeSuggestions').style.display = 'none';
-        return;
-    }
-    
-    fetch(`<?php echo site_url('api?type=youtube&keyword='); ?>${keywords}`)
-        .then(response => response.json())
-        .then(data => {
-            const suggestionsBox = document.getElementById('youtubeSuggestions');
-            suggestionsBox.innerHTML = '';
-            data.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'suggestion-item';
-                div.textContent = item.title;
-                div.onclick = () => {
-                    document.getElementById('video_url').value = `https://www.youtube.com/watch?v=${item.videoId}`;
-                    suggestionsBox.style.display = 'none';
-                };
-                suggestionsBox.appendChild(div);
-            });
-            suggestionsBox.style.display = 'block';
-        })
-        .catch(error => console.error('Error fetching YouTube suggestions:', error));
-}
-
-function fetchGiphySuggestions() {
-    const keywords = document.getElementById('giphy_keywords').value;
-    if (keywords.length < 3) {
-        document.getElementById('giphySuggestions').style.display = 'none';
-        return;
+    <script>
+    function fetchYouTubeSuggestions() {
+        const keywords = document.getElementById('youtube_keywords').value;
+        if (keywords.length < 3) {
+            document.getElementById('youtubeSuggestions').style.display = 'none';
+            return;
+        }
+        
+        fetch(`<?php echo site_url('api?type=youtube&keyword='); ?>${keywords}`)
+            .then(response => response.json())
+            .then(data => {
+                const suggestionsBox = document.getElementById('youtubeSuggestions');
+                suggestionsBox.innerHTML = '';
+                data.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'suggestion-item';
+                    div.textContent = item.title;
+                    div.onclick = () => {
+                        document.getElementById('video_url').value = `https://www.youtube.com/watch?v=${item.videoId}`;
+                        suggestionsBox.style.display = 'none';
+                    };
+                    suggestionsBox.appendChild(div);
+                });
+                suggestionsBox.style.display = 'block';
+            })
+            .catch(error => console.error('Error fetching YouTube suggestions:', error));
     }
 
-    fetch(`<?php echo site_url('api?type=giphy&keyword='); ?>${keywords}`)
-        .then(response => response.json())
-        .then(data => {
-            const suggestionsBox = document.getElementById('giphySuggestions');
-            suggestionsBox.innerHTML = '';
-            data.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'suggestion-item';
-                div.textContent = item.title;
-                div.onclick = () => {
-                    document.getElementById('gif_url').value = item.url; // Store the GIF URL
-                    document.getElementById('gifImage').src = item.url; // Preview the GIF
-                    document.getElementById('gifPreview').style.display = 'block';
-                    suggestionsBox.style.display = 'none';
-                };
-                suggestionsBox.appendChild(div);
-            });
-            suggestionsBox.style.display = 'block';
-        })
-        .catch(error => console.error('Error fetching Giphy suggestions:', error));
-}
-</script>
+    function fetchGiphySuggestions() {
+        const keywords = document.getElementById('giphy_keywords').value;
+        if (keywords.length < 3) {
+            document.getElementById('giphySuggestions').style.display = 'none';
+            return;
+        }
 
+        fetch(`<?php echo site_url('api?type=giphy&keyword='); ?>${keywords}`)
+            .then(response => response.json())
+            .then(data => {
+                const suggestionsBox = document.getElementById('giphySuggestions');
+                suggestionsBox.innerHTML = '';
+                data.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'suggestion-item';
+                    div.textContent = item.title;
+                    div.onclick = () => {
+                        document.getElementById('gif_url').value = item.url; // Store the GIF URL
+                        document.getElementById('gifImage').src = item.url; // Preview the GIF
+                        document.getElementById('gifPreview').style.display = 'block';
+                        suggestionsBox.style.display = 'none';
+                    };
+                    suggestionsBox.appendChild(div);
+                });
+                suggestionsBox.style.display = 'block';
+            })
+            .catch(error => console.error('Error fetching Giphy suggestions:', error));
+    }
+    </script>
 </div>
 
 <?php include APPPATH . 'views/home/footer.php'; ?>

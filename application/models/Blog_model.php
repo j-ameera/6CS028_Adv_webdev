@@ -8,32 +8,32 @@ class Blog_model extends CI_Model {
         $this->load->database();
     }
 
-    // Retrieve all blog posts
+    // SELECT SPECIFIC POSTS
     public function get_all_posts() {
         $this->db->select('id, title, content, image, hashtags, created_at'); // Explicitly select columns
         $query = $this->db->get('blog_posts');
         return $query->result();
     }
 
-    // Retrieve a single blog post by its ID
+    // Display post only by ID
     public function get_post($id) {
         $this->db->select('id, title, content, image, hashtags, video_url, gif_url, youtube_keywords, giphy_keywords, created_at'); // Explicitly select columns
         $query = $this->db->get_where('blog_posts', array('id' => $id));
         return $query->row();
     }
 
-    // Insert a new blog post
+    // ADD NEW BLOG POST
     public function insert_post($data) {
         return $this->db->insert('blog_posts', $data);
     }
 
-    // Update a blog post by its ID
+    // UPDATE BLOG POST
     public function update_post($id, $data) {
         $this->db->where('id', $id);
         return $this->db->update('blog_posts', $data);
     }
 
-    // Delete a blog post by its ID
+    // DELETE A BLOG POST
     public function delete_post($id) {
         return $this->db->delete('blog_posts', array('id' => $id));
     }
@@ -63,12 +63,12 @@ class Blog_model extends CI_Model {
         return $this->db->get()->result();
     }
 
-    // Insert a new comment
+    // Add new comment
     public function add_comment($data) {
         return $this->db->insert('comments', $data);
     }
 
-    // Insert a new reply
+    // Add reply
     public function add_reply($data) {
         return $this->db->insert('replies', $data);
     }
@@ -81,11 +81,31 @@ class Blog_model extends CI_Model {
         return $this->db->get()->row()->post_id;
     }
 
-    // Enhanced: Retrieve posts by hashtag
+    // Filter posts by hashtags
     public function get_posts_by_hashtag($hashtag) {
         $this->db->like('hashtags', $hashtag);
         $query = $this->db->get('blog_posts');
         return $query->result_array();
+    }
+
+    // Fetch hashtags
+    public function get_hashtags($query) {
+        $this->db->select('hashtags');
+        $this->db->like('hashtags', $query);
+        $query = $this->db->get('blog_posts');
+        $results = $query->result_array();
+
+        $hashtags = [];
+        foreach ($results as $result) {
+            $tags = explode(' ', $result['hashtags']);
+            foreach ($tags as $tag) {
+                if (strpos($tag, $query) === 0 && !in_array($tag, $hashtags)) {
+                    $hashtags[] = $tag;
+                }
+            }
+        }
+
+        return $hashtags;
     }
 
     // Additional methods can be added here

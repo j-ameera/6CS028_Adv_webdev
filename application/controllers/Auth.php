@@ -29,10 +29,8 @@ class Auth extends CI_Controller {
             $username = $this->input->post('username');
             $password = $this->input->post('password');
 
-            // Hash the password before storing it
             $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
-            // Pass the hashed password to the model
             $register = $this->Auth_model->register_user($username, $hashed_password);
 
             if ($register) {
@@ -90,6 +88,33 @@ class Auth extends CI_Controller {
     public function logout($value='') {
         $this->session->sess_destroy();
         redirect('Auth');
+    }
+
+    public function validate_field() {
+        $field = $this->input->post('field');
+        $value = $this->input->post('value');
+
+        $response = array('valid' => true);
+
+        if ($field == 'username') {
+            if ($this->Auth_model->is_username_taken($value)) {
+                $response['valid'] = false;
+                $response['message'] = 'Username is already taken';
+            }
+        } elseif ($field == 'password') {
+            if (strlen($value) < 8) {
+                $response['valid'] = false;
+                $response['message'] = 'Password must be at least 8 characters long';
+            }
+        } elseif ($field == 'confirm_password') {
+            $password = $this->input->post('password');
+            if ($value !== $password) {
+                $response['valid'] = false;
+                $response['message'] = 'Passwords do not match';
+            }
+        }
+
+        echo json_encode($response);
     }
 }
 ?>

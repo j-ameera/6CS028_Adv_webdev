@@ -11,25 +11,25 @@ class Home extends CI_Controller {
            redirect('auth');
         }
 
-        // Load the Blog model
+        // BLOG MODEL
         $this->load->model('Blog_model');
         $this->load->helper(['url', 'form']);
         $this->load->library('session');
     }
     
     public function index() {
-        // Fetch all blog posts
+        // FETCH ALL POSTS
         $data['posts'] = $this->Blog_model->get_all_posts();
         
-        // Load the home view with posts data
+        // Home displays all post .php
         $this->load->view('home/home', $data);
     }
 
     public function view($id) {
-        // Fetch the post by id
+        // FETCH POST BY ID
         $post = $this->Blog_model->get_post($id);
 
-        // Check if post is found
+        // Double checks if post is found!!
         if (!$post) {
             show_404();
         }
@@ -54,7 +54,7 @@ class Home extends CI_Controller {
     }
 
     private function get_youtube_videos($query) {
-        $apiKey = 'YOUR_YOUTUBE_API_KEY';
+        $apiKey = 'AIzaSyBNwAiTYbQpWhpLlhSPKlZ4NOvMjWPlEiM';
         $url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q={$query}&key={$apiKey}";
 
         $ch = curl_init();
@@ -67,7 +67,7 @@ class Home extends CI_Controller {
     }
 
     private function get_gifs($query) {
-        $apiKey = 'YOUR_GIPHY_API_KEY';
+        $apiKey = 'O7evqnnVOuut7li5Tcf9QPJOhLZLTSZF';
         $url = "https://api.giphy.com/v1/gifs/search?api_key={$apiKey}&q={$query}&limit=5";
 
         $ch = curl_init();
@@ -85,11 +85,17 @@ class Home extends CI_Controller {
         $this->load->view('home/'.$article_to_show);
     }
 
-    // Enhanced: Add search functionality
+    // Search functionality here
     public function search() {
         $hashtag = $this->input->get('hashtag');
         $data['posts'] = $this->Blog_model->get_posts_by_hashtag($hashtag);
         $this->load->view('home/home', $data);
+    }
+
+    public function search_hashtags() {
+        $query = $this->input->get('query');
+        $hashtags = $this->Blog_model->get_hashtags($query);
+        echo json_encode($hashtags);
     }
 }
 ?>

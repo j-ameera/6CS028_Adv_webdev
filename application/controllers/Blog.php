@@ -46,7 +46,7 @@ class Blog extends CI_Controller {
     public function store() {
         $this->rolemiddleware->checkRole(['admin']);
 
-        // Handle file upload
+        // File upload coding here
         $config['upload_path'] = './uploads/';
         $config['allowed_types'] = 'gif|jpg|jpeg|png';
         $config['max_size'] = 2048; // 2MB max file size
@@ -116,7 +116,7 @@ class Blog extends CI_Controller {
         $this->load->view('blog/index', array('posts' => $posts));
     }
 
-    // Add Comment
+    // ADD COMMENT HERE
     public function add_comment($post_id) {
         $data = array(
             'post_id' => $post_id,
@@ -129,7 +129,7 @@ class Blog extends CI_Controller {
         redirect('home/view/' . $post_id);
     }
 
-    // Add Reply
+    // ADD REPLY...
     public function add_reply($comment_id) {
         $data = array(
             'comment_id' => $comment_id,
@@ -143,11 +143,18 @@ class Blog extends CI_Controller {
         redirect('home/view/' . $post_id);
     }
 
-    // Enhanced: Add search functionality
+    // SEARCH FUNCTION
     public function search() {
         $hashtag = $this->input->get('hashtag');
         $data['posts'] = $this->Blog_model->get_posts_by_hashtag($hashtag);
         $this->load->view('blog/index', $data);
+    }
+
+    // HASHTAG @ HOME.PHP/CREATE.PHP
+    public function search_hashtags() {
+        $query = $this->input->get('query');
+        $hashtags = $this->Blog_model->get_hashtags($query);
+        echo json_encode($hashtags);
     }
 }
 ?>

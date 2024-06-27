@@ -7,6 +7,7 @@
 <section id="search-bar">
     <form id="search-form">
         <input type="text" id="search-input" placeholder="Search by hashtag">
+        <div id="suggestions"></div> <!-- Container for suggestions -->
     </form>
 </section>
 
@@ -52,21 +53,65 @@
     </div>
 </section>
 
-<!-- JavaScript for filtering posts -->
+<!-- JavaScript for filtering posts and showing suggestions -->
 <script>
     document.getElementById('search-input').addEventListener('input', function() {
-        const filter = this.value.toLowerCase();
+        const query = this.value;
         const blogBoxes = document.querySelectorAll('.blog-box');
 
+        // Filter posts based on the search query
         blogBoxes.forEach(function(box) {
             const hashtags = box.getAttribute('data-hashtags').toLowerCase();
-            if (hashtags.includes(filter)) {
+            if (hashtags.includes(query.toLowerCase())) {
                 box.style.display = '';
             } else {
                 box.style.display = 'none';
             }
         });
+
+        // Fetch and display suggestions for hashtags
+        if (query.startsWith('#')) {
+            fetch(`<?php echo site_url('home/search_hashtags'); ?>?query=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    const suggestions = document.getElementById('suggestions');
+                    suggestions.innerHTML = '';
+                    data.forEach(item => {
+                        const div = document.createElement('div');
+                        div.textContent = item;
+                        div.className = 'suggestion-item';
+                        div.addEventListener('click', function() {
+                            document.getElementById('search-input').value = item;
+                            suggestions.innerHTML = '';
+                            // Trigger the input event to filter posts
+                            document.getElementById('search-input').dispatchEvent(new Event('input'));
+                        });
+                        suggestions.appendChild(div);
+                    });
+                });
+        } else {
+            document.getElementById('suggestions').innerHTML = '';
+        }
     });
 </script>
+
+<style>
+    /* Styles for suggestions */
+    #suggestions {
+        border: 1px solid #ccc;
+        max-height: 150px;
+        overflow-y: auto;
+        background: white;
+        position: absolute;
+        width: calc(100% - 20px);
+    }
+    .suggestion-item {
+        padding: 10px;
+        cursor: pointer;
+    }
+    .suggestion-item:hover {
+        background-color: #f0f0f0;
+    }
+</style>
 
 <?php include APPPATH . 'views/home/footer.php'; ?>
