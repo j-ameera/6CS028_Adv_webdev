@@ -3,6 +3,13 @@
 <!-- Link to style2.css -->
 <link rel="stylesheet" href="<?php echo base_url('assets/css/style2.css'); ?>">
 
+<!-- Search Bar -->
+<section id="search-bar">
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search by hashtag">
+    </form>
+</section>
+
 <!-- BLOG DESIGN STARTS HERE -->
 <section id="blog">
     <!-- HEADING -->
@@ -14,7 +21,7 @@
         <!-- Display blog posts -->
         <?php if (!empty($posts)): ?>
             <?php foreach ($posts as $post): ?>
-                <div class="blog-box">
+                <div class="blog-box" data-hashtags="<?php echo $post->hashtags; ?>">
                     <!-- img -->
                     <div class="blog-img">
                         <?php if (!empty($post->image)): ?>
@@ -29,6 +36,9 @@
                         <a class="post-title"><?php echo $post->title; ?></a>
                         <p><?php echo substr($post->content, 0, 100); ?>...</p>
                         <a href="<?php echo base_url('home/view/' . $post->id); ?>">Read More</a>
+                        <?php if (!empty($post->hashtags)): ?>
+                            <p>Hashtags: <?php echo $post->hashtags; ?></p>
+                        <?php endif; ?>
                         <?php if ($this->session->userdata('role') == 'admin'): ?>
                             <a href="<?php echo base_url('blog/delete/' . $post->id); ?>" onclick="return confirm('Are you sure you want to delete this post?');">Delete</a>
                         <?php endif; ?>
@@ -41,5 +51,22 @@
         <?php endif; ?>
     </div>
 </section>
+
+<!-- JavaScript for filtering posts -->
+<script>
+    document.getElementById('search-input').addEventListener('input', function() {
+        const filter = this.value.toLowerCase();
+        const blogBoxes = document.querySelectorAll('.blog-box');
+
+        blogBoxes.forEach(function(box) {
+            const hashtags = box.getAttribute('data-hashtags').toLowerCase();
+            if (hashtags.includes(filter)) {
+                box.style.display = '';
+            } else {
+                box.style.display = 'none';
+            }
+        });
+    });
+</script>
 
 <?php include APPPATH . 'views/home/footer.php'; ?>

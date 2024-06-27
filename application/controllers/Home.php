@@ -84,5 +84,12 @@ class Home extends CI_Controller {
         $article_to_show = 'article'.$article_number;
         $this->load->view('home/'.$article_to_show);
     }
+
+    // Enhanced: Add search functionality
+    public function search() {
+        $hashtag = $this->input->get('hashtag');
+        $data['posts'] = $this->Blog_model->get_posts_by_hashtag($hashtag);
+        $this->load->view('home/home', $data);
+    }
 }
 ?>

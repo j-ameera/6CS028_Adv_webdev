@@ -10,12 +10,14 @@ class Blog_model extends CI_Model {
 
     // Retrieve all blog posts
     public function get_all_posts() {
+        $this->db->select('id, title, content, image, hashtags, created_at'); // Explicitly select columns
         $query = $this->db->get('blog_posts');
         return $query->result();
     }
 
     // Retrieve a single blog post by its ID
     public function get_post($id) {
+        $this->db->select('id, title, content, image, hashtags, video_url, gif_url, youtube_keywords, giphy_keywords, created_at'); // Explicitly select columns
         $query = $this->db->get_where('blog_posts', array('id' => $id));
         return $query->row();
     }
@@ -77,6 +79,13 @@ class Blog_model extends CI_Model {
         $this->db->from('comments');
         $this->db->where('id', $comment_id);
         return $this->db->get()->row()->post_id;
+    }
+
+    // Enhanced: Retrieve posts by hashtag
+    public function get_posts_by_hashtag($hashtag) {
+        $this->db->like('hashtags', $hashtag);
+        $query = $this->db->get('blog_posts');
+        return $query->result_array();
     }
 
     // Additional methods can be added here

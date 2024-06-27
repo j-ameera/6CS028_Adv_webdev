@@ -13,7 +13,7 @@ class Blog extends CI_Controller {
     }
 
     private function get_youtube_videos($query) {
-        $apiKey = 'YOUR_YOUTUBE_API_KEY';
+        $apiKey = 'AIzaSyBNwAiTYbQpWhpLlhSPKlZ4NOvMjWPlEiM';
         $url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q={$query}&key={$apiKey}";
 
         $ch = curl_init();
@@ -26,7 +26,7 @@ class Blog extends CI_Controller {
     }
 
     private function get_gifs($query) {
-        $apiKey = 'YOUR_GIPHY_API_KEY';
+        $apiKey = 'O7evqnnVOuut7li5Tcf9QPJOhLZLTSZF';
         $url = "https://api.giphy.com/v1/gifs/search?api_key={$apiKey}&q={$query}&limit=5";
 
         $ch = curl_init();
@@ -141,6 +141,13 @@ class Blog extends CI_Controller {
         $this->Blog_model->add_reply($data);
         $post_id = $this->Blog_model->get_post_id_by_comment($comment_id);
         redirect('home/view/' . $post_id);
+    }
+
+    // Enhanced: Add search functionality
+    public function search() {
+        $hashtag = $this->input->get('hashtag');
+        $data['posts'] = $this->Blog_model->get_posts_by_hashtag($hashtag);
+        $this->load->view('blog/index', $data);
     }
 }
 ?>
