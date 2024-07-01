@@ -111,15 +111,6 @@
                 <button type="submit" class="btn btn-primary">Post Comment</button>
             </form>
         </div>
-
-        <!-- Webcam Capture Section -->
-        <div class="capture-section">
-            <h2>Capture Image</h2>
-            <video id="video" width="320" height="240" autoplay></video>
-            <button id="snap">Capture</button>
-            <canvas id="canvas" width="1000" height="667" style="display: none;"></canvas>
-            <div class="blog-img" id="captured-image-container"></div>
-        </div>
     </section>
 
     <?php include APPPATH . 'views/home/footer.php'; ?>
