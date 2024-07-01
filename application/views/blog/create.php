@@ -59,6 +59,8 @@
     <button id="snap">Capture</button>
     <canvas id="canvas" width="1000" height="667" style="display: none;"></canvas>
 
+    <div class="blog-img" id="captured-image-container"></div>
+
     <script src="<?php echo base_url('assets/js/camera.js'); ?>"></script>
     <style>
         .suggestions {

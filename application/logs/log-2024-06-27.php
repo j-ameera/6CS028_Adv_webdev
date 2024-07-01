@@ -28942,3 +28942,1226 @@ DEBUG - 2024-06-27 11:39:52 --> Session class already loaded. Second attempt ign
 INFO - 2024-06-27 11:39:52 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
 INFO - 2024-06-27 11:39:52 --> Final output sent to browser
 DEBUG - 2024-06-27 11:39:52 --> Total execution time: 0.0376
+INFO - 2024-06-27 11:59:51 --> Config Class Initialized
+INFO - 2024-06-27 11:59:51 --> Hooks Class Initialized
+DEBUG - 2024-06-27 11:59:51 --> UTF-8 Support Enabled
+INFO - 2024-06-27 11:59:51 --> Utf8 Class Initialized
+INFO - 2024-06-27 11:59:51 --> URI Class Initialized
+INFO - 2024-06-27 11:59:51 --> Router Class Initialized
+INFO - 2024-06-27 11:59:51 --> Output Class Initialized
+INFO - 2024-06-27 11:59:51 --> Security Class Initialized
+DEBUG - 2024-06-27 11:59:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 11:59:51 --> Input Class Initialized
+INFO - 2024-06-27 11:59:51 --> Language Class Initialized
+INFO - 2024-06-27 11:59:51 --> Loader Class Initialized
+INFO - 2024-06-27 11:59:51 --> Helper loaded: url_helper
+INFO - 2024-06-27 11:59:51 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 11:59:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 11:59:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 11:59:51 --> Controller Class Initialized
+INFO - 2024-06-27 11:59:51 --> Database Driver Class Initialized
+INFO - 2024-06-27 11:59:51 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 11:59:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 11:59:51 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 11:59:51 --> Final output sent to browser
+DEBUG - 2024-06-27 11:59:51 --> Total execution time: 0.0396
+INFO - 2024-06-27 11:59:52 --> Config Class Initialized
+INFO - 2024-06-27 11:59:52 --> Hooks Class Initialized
+DEBUG - 2024-06-27 11:59:52 --> UTF-8 Support Enabled
+INFO - 2024-06-27 11:59:52 --> Utf8 Class Initialized
+INFO - 2024-06-27 11:59:52 --> URI Class Initialized
+INFO - 2024-06-27 11:59:52 --> Router Class Initialized
+INFO - 2024-06-27 11:59:52 --> Output Class Initialized
+INFO - 2024-06-27 11:59:52 --> Security Class Initialized
+DEBUG - 2024-06-27 11:59:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 11:59:52 --> Input Class Initialized
+INFO - 2024-06-27 11:59:52 --> Language Class Initialized
+INFO - 2024-06-27 11:59:52 --> Loader Class Initialized
+INFO - 2024-06-27 11:59:52 --> Helper loaded: url_helper
+INFO - 2024-06-27 11:59:52 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 11:59:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 11:59:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 11:59:52 --> Controller Class Initialized
+INFO - 2024-06-27 11:59:52 --> Database Driver Class Initialized
+INFO - 2024-06-27 11:59:52 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 11:59:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 11:59:52 --> Upload Class Initialized
+INFO - 2024-06-27 11:59:52 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 11:59:52 --> Final output sent to browser
+DEBUG - 2024-06-27 11:59:52 --> Total execution time: 0.0400
+INFO - 2024-06-27 12:08:48 --> Config Class Initialized
+INFO - 2024-06-27 12:08:48 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:48 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:48 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:48 --> URI Class Initialized
+INFO - 2024-06-27 12:08:48 --> Router Class Initialized
+INFO - 2024-06-27 12:08:48 --> Output Class Initialized
+INFO - 2024-06-27 12:08:48 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:48 --> Input Class Initialized
+INFO - 2024-06-27 12:08:48 --> Language Class Initialized
+INFO - 2024-06-27 12:08:48 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:48 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:48 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:48 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:48 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:48 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:48 --> Upload Class Initialized
+INFO - 2024-06-27 12:08:48 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 12:08:48 --> Final output sent to browser
+DEBUG - 2024-06-27 12:08:48 --> Total execution time: 0.0473
+INFO - 2024-06-27 12:08:50 --> Config Class Initialized
+INFO - 2024-06-27 12:08:50 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:50 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:50 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:50 --> URI Class Initialized
+INFO - 2024-06-27 12:08:50 --> Router Class Initialized
+INFO - 2024-06-27 12:08:50 --> Output Class Initialized
+INFO - 2024-06-27 12:08:50 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:50 --> Input Class Initialized
+INFO - 2024-06-27 12:08:50 --> Language Class Initialized
+INFO - 2024-06-27 12:08:50 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:50 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:50 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:50 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:50 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:50 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:50 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:08:50 --> Final output sent to browser
+DEBUG - 2024-06-27 12:08:50 --> Total execution time: 0.0396
+INFO - 2024-06-27 12:08:52 --> Config Class Initialized
+INFO - 2024-06-27 12:08:52 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:52 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:52 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:52 --> URI Class Initialized
+INFO - 2024-06-27 12:08:53 --> Router Class Initialized
+INFO - 2024-06-27 12:08:53 --> Output Class Initialized
+INFO - 2024-06-27 12:08:53 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:53 --> Input Class Initialized
+INFO - 2024-06-27 12:08:53 --> Language Class Initialized
+INFO - 2024-06-27 12:08:53 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:53 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:53 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:53 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:53 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:53 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:53 --> Upload Class Initialized
+INFO - 2024-06-27 12:08:53 --> Config Class Initialized
+INFO - 2024-06-27 12:08:53 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:53 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:53 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:53 --> URI Class Initialized
+INFO - 2024-06-27 12:08:53 --> Router Class Initialized
+INFO - 2024-06-27 12:08:53 --> Output Class Initialized
+INFO - 2024-06-27 12:08:53 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:53 --> Input Class Initialized
+INFO - 2024-06-27 12:08:53 --> Language Class Initialized
+INFO - 2024-06-27 12:08:53 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:53 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:53 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:53 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:53 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:53 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:53 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:08:53 --> Final output sent to browser
+DEBUG - 2024-06-27 12:08:53 --> Total execution time: 0.0396
+INFO - 2024-06-27 12:08:54 --> Config Class Initialized
+INFO - 2024-06-27 12:08:54 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:54 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:54 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:54 --> URI Class Initialized
+INFO - 2024-06-27 12:08:54 --> Router Class Initialized
+INFO - 2024-06-27 12:08:54 --> Output Class Initialized
+INFO - 2024-06-27 12:08:54 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:54 --> Input Class Initialized
+INFO - 2024-06-27 12:08:54 --> Language Class Initialized
+INFO - 2024-06-27 12:08:54 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:54 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:54 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:54 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:54 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:54 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:54 --> Upload Class Initialized
+INFO - 2024-06-27 12:08:54 --> Config Class Initialized
+INFO - 2024-06-27 12:08:54 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:54 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:54 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:54 --> URI Class Initialized
+INFO - 2024-06-27 12:08:54 --> Router Class Initialized
+INFO - 2024-06-27 12:08:54 --> Output Class Initialized
+INFO - 2024-06-27 12:08:54 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:54 --> Input Class Initialized
+INFO - 2024-06-27 12:08:54 --> Language Class Initialized
+INFO - 2024-06-27 12:08:54 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:54 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:54 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:54 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:54 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:54 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:54 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:08:54 --> Final output sent to browser
+DEBUG - 2024-06-27 12:08:54 --> Total execution time: 0.0402
+INFO - 2024-06-27 12:08:57 --> Config Class Initialized
+INFO - 2024-06-27 12:08:57 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:57 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:57 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:57 --> URI Class Initialized
+INFO - 2024-06-27 12:08:57 --> Router Class Initialized
+INFO - 2024-06-27 12:08:57 --> Output Class Initialized
+INFO - 2024-06-27 12:08:57 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:57 --> Input Class Initialized
+INFO - 2024-06-27 12:08:57 --> Language Class Initialized
+INFO - 2024-06-27 12:08:57 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:57 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:57 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:57 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:57 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:57 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:57 --> Upload Class Initialized
+INFO - 2024-06-27 12:08:57 --> Config Class Initialized
+INFO - 2024-06-27 12:08:57 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:08:57 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:08:57 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:08:57 --> URI Class Initialized
+INFO - 2024-06-27 12:08:57 --> Router Class Initialized
+INFO - 2024-06-27 12:08:57 --> Output Class Initialized
+INFO - 2024-06-27 12:08:57 --> Security Class Initialized
+DEBUG - 2024-06-27 12:08:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:08:57 --> Input Class Initialized
+INFO - 2024-06-27 12:08:57 --> Language Class Initialized
+INFO - 2024-06-27 12:08:57 --> Loader Class Initialized
+INFO - 2024-06-27 12:08:57 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:08:57 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:08:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:08:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:08:57 --> Controller Class Initialized
+INFO - 2024-06-27 12:08:57 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:08:57 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:08:57 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:08:57 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:08:57 --> Final output sent to browser
+DEBUG - 2024-06-27 12:08:57 --> Total execution time: 0.0396
+INFO - 2024-06-27 12:09:01 --> Config Class Initialized
+INFO - 2024-06-27 12:09:01 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:09:01 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:09:01 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:09:01 --> URI Class Initialized
+INFO - 2024-06-27 12:09:01 --> Router Class Initialized
+INFO - 2024-06-27 12:09:01 --> Output Class Initialized
+INFO - 2024-06-27 12:09:01 --> Security Class Initialized
+DEBUG - 2024-06-27 12:09:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:09:01 --> Input Class Initialized
+INFO - 2024-06-27 12:09:01 --> Language Class Initialized
+INFO - 2024-06-27 12:09:01 --> Loader Class Initialized
+INFO - 2024-06-27 12:09:01 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:09:01 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:09:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:09:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:09:01 --> Controller Class Initialized
+INFO - 2024-06-27 12:09:01 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:09:01 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:09:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:09:01 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 12:09:01 --> Final output sent to browser
+DEBUG - 2024-06-27 12:09:01 --> Total execution time: 0.3584
+INFO - 2024-06-27 12:09:03 --> Config Class Initialized
+INFO - 2024-06-27 12:09:03 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:09:03 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:09:03 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:09:03 --> URI Class Initialized
+INFO - 2024-06-27 12:09:03 --> Router Class Initialized
+INFO - 2024-06-27 12:09:03 --> Output Class Initialized
+INFO - 2024-06-27 12:09:03 --> Security Class Initialized
+DEBUG - 2024-06-27 12:09:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:09:03 --> Input Class Initialized
+INFO - 2024-06-27 12:09:03 --> Language Class Initialized
+INFO - 2024-06-27 12:09:03 --> Loader Class Initialized
+INFO - 2024-06-27 12:09:03 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:09:03 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:09:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:09:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:09:03 --> Controller Class Initialized
+INFO - 2024-06-27 12:09:03 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:09:03 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:09:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:09:03 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:09:03 --> Final output sent to browser
+DEBUG - 2024-06-27 12:09:03 --> Total execution time: 0.0386
+INFO - 2024-06-27 12:09:04 --> Config Class Initialized
+INFO - 2024-06-27 12:09:04 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:09:04 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:09:04 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:09:04 --> URI Class Initialized
+INFO - 2024-06-27 12:09:04 --> Router Class Initialized
+INFO - 2024-06-27 12:09:04 --> Output Class Initialized
+INFO - 2024-06-27 12:09:04 --> Security Class Initialized
+DEBUG - 2024-06-27 12:09:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:09:04 --> Input Class Initialized
+INFO - 2024-06-27 12:09:04 --> Language Class Initialized
+INFO - 2024-06-27 12:09:04 --> Loader Class Initialized
+INFO - 2024-06-27 12:09:04 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:09:04 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:09:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:09:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:09:04 --> Controller Class Initialized
+INFO - 2024-06-27 12:09:04 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:09:04 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:09:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:09:05 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 12:09:05 --> Final output sent to browser
+DEBUG - 2024-06-27 12:09:05 --> Total execution time: 0.2257
+INFO - 2024-06-27 12:09:19 --> Config Class Initialized
+INFO - 2024-06-27 12:09:19 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:09:19 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:09:19 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:09:19 --> URI Class Initialized
+INFO - 2024-06-27 12:09:19 --> Router Class Initialized
+INFO - 2024-06-27 12:09:19 --> Output Class Initialized
+INFO - 2024-06-27 12:09:19 --> Security Class Initialized
+DEBUG - 2024-06-27 12:09:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:09:19 --> Input Class Initialized
+INFO - 2024-06-27 12:09:19 --> Language Class Initialized
+INFO - 2024-06-27 12:09:19 --> Loader Class Initialized
+INFO - 2024-06-27 12:09:19 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:09:19 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:09:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:09:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:09:19 --> Controller Class Initialized
+INFO - 2024-06-27 12:09:19 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:09:19 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:09:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:09:19 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:09:19 --> Final output sent to browser
+DEBUG - 2024-06-27 12:09:19 --> Total execution time: 0.0391
+INFO - 2024-06-27 12:11:03 --> Config Class Initialized
+INFO - 2024-06-27 12:11:03 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:11:03 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:11:03 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:11:03 --> URI Class Initialized
+INFO - 2024-06-27 12:11:03 --> Router Class Initialized
+INFO - 2024-06-27 12:11:03 --> Output Class Initialized
+INFO - 2024-06-27 12:11:03 --> Security Class Initialized
+DEBUG - 2024-06-27 12:11:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:11:03 --> Input Class Initialized
+INFO - 2024-06-27 12:11:03 --> Language Class Initialized
+INFO - 2024-06-27 12:11:03 --> Loader Class Initialized
+INFO - 2024-06-27 12:11:03 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:11:03 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:11:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:11:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:11:03 --> Controller Class Initialized
+INFO - 2024-06-27 12:11:03 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:11:03 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:11:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:11:03 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:11:03 --> Final output sent to browser
+DEBUG - 2024-06-27 12:11:03 --> Total execution time: 0.0371
+INFO - 2024-06-27 12:11:04 --> Config Class Initialized
+INFO - 2024-06-27 12:11:04 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:11:04 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:11:04 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:11:04 --> URI Class Initialized
+INFO - 2024-06-27 12:11:04 --> Router Class Initialized
+INFO - 2024-06-27 12:11:04 --> Output Class Initialized
+INFO - 2024-06-27 12:11:04 --> Security Class Initialized
+DEBUG - 2024-06-27 12:11:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:11:04 --> Input Class Initialized
+INFO - 2024-06-27 12:11:04 --> Language Class Initialized
+INFO - 2024-06-27 12:11:04 --> Loader Class Initialized
+INFO - 2024-06-27 12:11:04 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:11:04 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:11:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:11:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:11:04 --> Controller Class Initialized
+INFO - 2024-06-27 12:11:04 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:11:04 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:11:04 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:11:04 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:11:04 --> Final output sent to browser
+DEBUG - 2024-06-27 12:11:04 --> Total execution time: 0.0370
+INFO - 2024-06-27 12:11:28 --> Config Class Initialized
+INFO - 2024-06-27 12:11:28 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:11:28 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:11:28 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:11:28 --> URI Class Initialized
+INFO - 2024-06-27 12:11:28 --> Router Class Initialized
+INFO - 2024-06-27 12:11:28 --> Output Class Initialized
+INFO - 2024-06-27 12:11:28 --> Security Class Initialized
+DEBUG - 2024-06-27 12:11:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:11:28 --> Input Class Initialized
+INFO - 2024-06-27 12:11:28 --> Language Class Initialized
+INFO - 2024-06-27 12:11:28 --> Loader Class Initialized
+INFO - 2024-06-27 12:11:28 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:11:28 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:11:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:11:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:11:28 --> Controller Class Initialized
+INFO - 2024-06-27 12:11:28 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:11:28 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:11:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:11:28 --> Upload Class Initialized
+INFO - 2024-06-27 12:11:28 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 12:11:28 --> Final output sent to browser
+DEBUG - 2024-06-27 12:11:28 --> Total execution time: 0.0379
+INFO - 2024-06-27 12:12:59 --> Config Class Initialized
+INFO - 2024-06-27 12:12:59 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:12:59 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:12:59 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:12:59 --> URI Class Initialized
+INFO - 2024-06-27 12:12:59 --> Router Class Initialized
+INFO - 2024-06-27 12:12:59 --> Output Class Initialized
+INFO - 2024-06-27 12:12:59 --> Security Class Initialized
+DEBUG - 2024-06-27 12:12:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:12:59 --> Input Class Initialized
+INFO - 2024-06-27 12:12:59 --> Language Class Initialized
+INFO - 2024-06-27 12:12:59 --> Loader Class Initialized
+INFO - 2024-06-27 12:12:59 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:12:59 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:12:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:12:59 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:12:59 --> Controller Class Initialized
+INFO - 2024-06-27 12:12:59 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:12:59 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:12:59 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:12:59 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:12:59 --> Final output sent to browser
+DEBUG - 2024-06-27 12:12:59 --> Total execution time: 0.0371
+INFO - 2024-06-27 12:15:08 --> Config Class Initialized
+INFO - 2024-06-27 12:15:08 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:15:08 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:15:08 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:15:08 --> URI Class Initialized
+INFO - 2024-06-27 12:15:08 --> Router Class Initialized
+INFO - 2024-06-27 12:15:08 --> Output Class Initialized
+INFO - 2024-06-27 12:15:08 --> Security Class Initialized
+DEBUG - 2024-06-27 12:15:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:15:08 --> Input Class Initialized
+INFO - 2024-06-27 12:15:08 --> Language Class Initialized
+INFO - 2024-06-27 12:15:08 --> Loader Class Initialized
+INFO - 2024-06-27 12:15:08 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:15:08 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:15:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:15:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:15:08 --> Controller Class Initialized
+INFO - 2024-06-27 12:15:08 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:15:08 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:15:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:15:08 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:15:08 --> Final output sent to browser
+DEBUG - 2024-06-27 12:15:08 --> Total execution time: 0.0403
+INFO - 2024-06-27 12:15:20 --> Config Class Initialized
+INFO - 2024-06-27 12:15:20 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:15:20 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:15:20 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:15:20 --> URI Class Initialized
+INFO - 2024-06-27 12:15:20 --> Router Class Initialized
+INFO - 2024-06-27 12:15:20 --> Output Class Initialized
+INFO - 2024-06-27 12:15:20 --> Security Class Initialized
+DEBUG - 2024-06-27 12:15:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:15:20 --> Input Class Initialized
+INFO - 2024-06-27 12:15:20 --> Language Class Initialized
+INFO - 2024-06-27 12:15:20 --> Loader Class Initialized
+INFO - 2024-06-27 12:15:20 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:15:20 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:15:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:15:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:15:20 --> Controller Class Initialized
+INFO - 2024-06-27 12:15:20 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:15:20 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:15:20 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:15:20 --> Upload Class Initialized
+INFO - 2024-06-27 12:15:20 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 12:15:20 --> Final output sent to browser
+DEBUG - 2024-06-27 12:15:20 --> Total execution time: 0.0387
+INFO - 2024-06-27 12:15:26 --> Config Class Initialized
+INFO - 2024-06-27 12:15:26 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:15:26 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:15:26 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:15:26 --> URI Class Initialized
+INFO - 2024-06-27 12:15:26 --> Router Class Initialized
+INFO - 2024-06-27 12:15:26 --> Output Class Initialized
+INFO - 2024-06-27 12:15:26 --> Security Class Initialized
+DEBUG - 2024-06-27 12:15:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:15:26 --> Input Class Initialized
+INFO - 2024-06-27 12:15:26 --> Language Class Initialized
+INFO - 2024-06-27 12:15:26 --> Loader Class Initialized
+INFO - 2024-06-27 12:15:26 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:15:26 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:15:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:15:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:15:26 --> Controller Class Initialized
+INFO - 2024-06-27 12:15:26 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:15:26 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:15:26 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:15:26 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 12:15:26 --> Final output sent to browser
+DEBUG - 2024-06-27 12:15:26 --> Total execution time: 0.0363
+INFO - 2024-06-27 12:15:27 --> Config Class Initialized
+INFO - 2024-06-27 12:15:27 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:15:27 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:15:27 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:15:27 --> URI Class Initialized
+INFO - 2024-06-27 12:15:27 --> Router Class Initialized
+INFO - 2024-06-27 12:15:27 --> Output Class Initialized
+INFO - 2024-06-27 12:15:27 --> Security Class Initialized
+DEBUG - 2024-06-27 12:15:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:15:27 --> Input Class Initialized
+INFO - 2024-06-27 12:15:27 --> Language Class Initialized
+INFO - 2024-06-27 12:15:27 --> Loader Class Initialized
+INFO - 2024-06-27 12:15:27 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:15:27 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:15:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:15:27 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:15:27 --> Controller Class Initialized
+INFO - 2024-06-27 12:15:27 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:15:27 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:15:27 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:15:27 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 12:15:27 --> Final output sent to browser
+DEBUG - 2024-06-27 12:15:27 --> Total execution time: 0.2096
+INFO - 2024-06-27 12:15:30 --> Config Class Initialized
+INFO - 2024-06-27 12:15:30 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:15:30 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:15:30 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:15:30 --> URI Class Initialized
+INFO - 2024-06-27 12:15:30 --> Router Class Initialized
+INFO - 2024-06-27 12:15:30 --> Output Class Initialized
+INFO - 2024-06-27 12:15:30 --> Security Class Initialized
+DEBUG - 2024-06-27 12:15:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:15:30 --> Input Class Initialized
+INFO - 2024-06-27 12:15:30 --> Language Class Initialized
+INFO - 2024-06-27 12:15:30 --> Loader Class Initialized
+INFO - 2024-06-27 12:15:30 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:15:30 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:15:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:15:30 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:15:30 --> Controller Class Initialized
+INFO - 2024-06-27 12:15:30 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:15:30 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:15:30 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:15:30 --> Upload Class Initialized
+INFO - 2024-06-27 12:15:30 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 12:15:30 --> Final output sent to browser
+DEBUG - 2024-06-27 12:15:30 --> Total execution time: 0.0439
+INFO - 2024-06-27 12:20:48 --> Config Class Initialized
+INFO - 2024-06-27 12:20:48 --> Hooks Class Initialized
+DEBUG - 2024-06-27 12:20:48 --> UTF-8 Support Enabled
+INFO - 2024-06-27 12:20:48 --> Utf8 Class Initialized
+INFO - 2024-06-27 12:20:48 --> URI Class Initialized
+INFO - 2024-06-27 12:20:48 --> Router Class Initialized
+INFO - 2024-06-27 12:20:48 --> Output Class Initialized
+INFO - 2024-06-27 12:20:48 --> Security Class Initialized
+DEBUG - 2024-06-27 12:20:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 12:20:48 --> Input Class Initialized
+INFO - 2024-06-27 12:20:48 --> Language Class Initialized
+INFO - 2024-06-27 12:20:48 --> Loader Class Initialized
+INFO - 2024-06-27 12:20:48 --> Helper loaded: url_helper
+INFO - 2024-06-27 12:20:48 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 12:20:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 12:20:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 12:20:48 --> Controller Class Initialized
+INFO - 2024-06-27 12:20:49 --> Database Driver Class Initialized
+INFO - 2024-06-27 12:20:49 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 12:20:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 12:20:49 --> Upload Class Initialized
+INFO - 2024-06-27 12:20:49 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 12:20:49 --> Final output sent to browser
+DEBUG - 2024-06-27 12:20:49 --> Total execution time: 0.0417
+INFO - 2024-06-27 14:45:41 --> Config Class Initialized
+INFO - 2024-06-27 14:45:41 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:41 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:41 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:41 --> URI Class Initialized
+INFO - 2024-06-27 14:45:41 --> Router Class Initialized
+INFO - 2024-06-27 14:45:41 --> Output Class Initialized
+INFO - 2024-06-27 14:45:41 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:41 --> Input Class Initialized
+INFO - 2024-06-27 14:45:41 --> Language Class Initialized
+INFO - 2024-06-27 14:45:41 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:41 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:41 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:41 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:41 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:41 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:45:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:45:41 --> Upload Class Initialized
+INFO - 2024-06-27 14:45:41 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 14:45:41 --> Final output sent to browser
+DEBUG - 2024-06-27 14:45:41 --> Total execution time: 0.0378
+INFO - 2024-06-27 14:45:42 --> Config Class Initialized
+INFO - 2024-06-27 14:45:42 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:42 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:42 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:42 --> URI Class Initialized
+INFO - 2024-06-27 14:45:42 --> Router Class Initialized
+INFO - 2024-06-27 14:45:42 --> Output Class Initialized
+INFO - 2024-06-27 14:45:42 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:42 --> Input Class Initialized
+INFO - 2024-06-27 14:45:42 --> Language Class Initialized
+INFO - 2024-06-27 14:45:42 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:42 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:42 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:42 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:42 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:42 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:42 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:45:42 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:45:42 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:45:42 --> Final output sent to browser
+DEBUG - 2024-06-27 14:45:42 --> Total execution time: 0.0376
+INFO - 2024-06-27 14:45:44 --> Config Class Initialized
+INFO - 2024-06-27 14:45:44 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:44 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:44 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:44 --> URI Class Initialized
+INFO - 2024-06-27 14:45:44 --> Router Class Initialized
+INFO - 2024-06-27 14:45:44 --> Output Class Initialized
+INFO - 2024-06-27 14:45:44 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:44 --> Input Class Initialized
+INFO - 2024-06-27 14:45:44 --> Language Class Initialized
+INFO - 2024-06-27 14:45:44 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:44 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:44 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:44 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:44 --> Model "Auth_model" initialized
+INFO - 2024-06-27 14:45:44 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:44 --> Config Class Initialized
+INFO - 2024-06-27 14:45:44 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:44 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:44 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:44 --> URI Class Initialized
+INFO - 2024-06-27 14:45:44 --> Router Class Initialized
+INFO - 2024-06-27 14:45:44 --> Output Class Initialized
+INFO - 2024-06-27 14:45:44 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:44 --> Input Class Initialized
+INFO - 2024-06-27 14:45:44 --> Language Class Initialized
+INFO - 2024-06-27 14:45:44 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:44 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:44 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:44 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:44 --> Model "Auth_model" initialized
+INFO - 2024-06-27 14:45:44 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:44 --> File loaded: C:\xampp\htdocs\Blog\application\views\auth/index.php
+INFO - 2024-06-27 14:45:44 --> Final output sent to browser
+DEBUG - 2024-06-27 14:45:44 --> Total execution time: 0.0331
+INFO - 2024-06-27 14:45:50 --> Config Class Initialized
+INFO - 2024-06-27 14:45:50 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:50 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:50 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:50 --> URI Class Initialized
+INFO - 2024-06-27 14:45:50 --> Router Class Initialized
+INFO - 2024-06-27 14:45:50 --> Output Class Initialized
+INFO - 2024-06-27 14:45:50 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:50 --> Input Class Initialized
+INFO - 2024-06-27 14:45:50 --> Language Class Initialized
+INFO - 2024-06-27 14:45:50 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:50 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:50 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:50 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:50 --> Model "Auth_model" initialized
+INFO - 2024-06-27 14:45:50 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:50 --> Config Class Initialized
+INFO - 2024-06-27 14:45:50 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:50 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:50 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:50 --> URI Class Initialized
+INFO - 2024-06-27 14:45:50 --> Router Class Initialized
+INFO - 2024-06-27 14:45:50 --> Output Class Initialized
+INFO - 2024-06-27 14:45:50 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:50 --> Input Class Initialized
+INFO - 2024-06-27 14:45:50 --> Language Class Initialized
+INFO - 2024-06-27 14:45:50 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:50 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:50 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:50 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:50 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:50 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:45:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:45:50 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:45:50 --> Final output sent to browser
+DEBUG - 2024-06-27 14:45:50 --> Total execution time: 0.0388
+INFO - 2024-06-27 14:45:58 --> Config Class Initialized
+INFO - 2024-06-27 14:45:58 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:58 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:58 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:58 --> URI Class Initialized
+INFO - 2024-06-27 14:45:58 --> Router Class Initialized
+INFO - 2024-06-27 14:45:58 --> Output Class Initialized
+INFO - 2024-06-27 14:45:58 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:58 --> Input Class Initialized
+INFO - 2024-06-27 14:45:58 --> Language Class Initialized
+INFO - 2024-06-27 14:45:58 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:58 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:58 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:58 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:58 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:58 --> Model "Auth_model" initialized
+INFO - 2024-06-27 14:45:58 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:58 --> Config Class Initialized
+INFO - 2024-06-27 14:45:58 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:45:58 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:45:58 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:45:58 --> URI Class Initialized
+INFO - 2024-06-27 14:45:58 --> Router Class Initialized
+INFO - 2024-06-27 14:45:58 --> Output Class Initialized
+INFO - 2024-06-27 14:45:58 --> Security Class Initialized
+DEBUG - 2024-06-27 14:45:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:45:58 --> Input Class Initialized
+INFO - 2024-06-27 14:45:58 --> Language Class Initialized
+INFO - 2024-06-27 14:45:58 --> Loader Class Initialized
+INFO - 2024-06-27 14:45:58 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:45:58 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:45:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:45:58 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:45:58 --> Controller Class Initialized
+INFO - 2024-06-27 14:45:58 --> Model "Auth_model" initialized
+INFO - 2024-06-27 14:45:58 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:45:58 --> File loaded: C:\xampp\htdocs\Blog\application\views\auth/index.php
+INFO - 2024-06-27 14:45:58 --> Final output sent to browser
+DEBUG - 2024-06-27 14:45:58 --> Total execution time: 0.0593
+INFO - 2024-06-27 14:46:04 --> Config Class Initialized
+INFO - 2024-06-27 14:46:04 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:04 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:04 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:04 --> URI Class Initialized
+INFO - 2024-06-27 14:46:04 --> Router Class Initialized
+INFO - 2024-06-27 14:46:04 --> Output Class Initialized
+INFO - 2024-06-27 14:46:04 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:04 --> Input Class Initialized
+INFO - 2024-06-27 14:46:04 --> Language Class Initialized
+INFO - 2024-06-27 14:46:04 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:04 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:04 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:04 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:04 --> Model "Auth_model" initialized
+INFO - 2024-06-27 14:46:04 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:05 --> Config Class Initialized
+INFO - 2024-06-27 14:46:05 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:05 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:05 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:05 --> URI Class Initialized
+INFO - 2024-06-27 14:46:05 --> Router Class Initialized
+INFO - 2024-06-27 14:46:05 --> Output Class Initialized
+INFO - 2024-06-27 14:46:05 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:05 --> Input Class Initialized
+INFO - 2024-06-27 14:46:05 --> Language Class Initialized
+INFO - 2024-06-27 14:46:05 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:05 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:05 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:05 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:05 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:05 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:05 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:05 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:05 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:46:05 --> Final output sent to browser
+DEBUG - 2024-06-27 14:46:05 --> Total execution time: 0.0525
+INFO - 2024-06-27 14:46:05 --> Config Class Initialized
+INFO - 2024-06-27 14:46:05 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:05 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:05 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:05 --> URI Class Initialized
+INFO - 2024-06-27 14:46:05 --> Router Class Initialized
+INFO - 2024-06-27 14:46:05 --> Output Class Initialized
+INFO - 2024-06-27 14:46:05 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:05 --> Input Class Initialized
+INFO - 2024-06-27 14:46:05 --> Language Class Initialized
+ERROR - 2024-06-27 14:46:05 --> 404 Page Not Found: Uploads/capture4.png
+INFO - 2024-06-27 14:46:06 --> Config Class Initialized
+INFO - 2024-06-27 14:46:06 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:06 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:06 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:06 --> URI Class Initialized
+INFO - 2024-06-27 14:46:06 --> Router Class Initialized
+INFO - 2024-06-27 14:46:06 --> Output Class Initialized
+INFO - 2024-06-27 14:46:06 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:06 --> Input Class Initialized
+INFO - 2024-06-27 14:46:06 --> Language Class Initialized
+INFO - 2024-06-27 14:46:06 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:06 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:06 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:06 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:06 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:06 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:06 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 14:46:06 --> Final output sent to browser
+DEBUG - 2024-06-27 14:46:06 --> Total execution time: 0.2230
+INFO - 2024-06-27 14:46:06 --> Config Class Initialized
+INFO - 2024-06-27 14:46:06 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:06 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:06 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:06 --> URI Class Initialized
+INFO - 2024-06-27 14:46:06 --> Router Class Initialized
+INFO - 2024-06-27 14:46:06 --> Output Class Initialized
+INFO - 2024-06-27 14:46:06 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:06 --> Input Class Initialized
+INFO - 2024-06-27 14:46:06 --> Language Class Initialized
+ERROR - 2024-06-27 14:46:06 --> 404 Page Not Found: Uploads/capture4.png
+INFO - 2024-06-27 14:46:08 --> Config Class Initialized
+INFO - 2024-06-27 14:46:08 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:08 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:08 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:08 --> URI Class Initialized
+INFO - 2024-06-27 14:46:08 --> Router Class Initialized
+INFO - 2024-06-27 14:46:08 --> Output Class Initialized
+INFO - 2024-06-27 14:46:08 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:08 --> Input Class Initialized
+INFO - 2024-06-27 14:46:08 --> Language Class Initialized
+INFO - 2024-06-27 14:46:08 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:08 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:08 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:08 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:08 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:08 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:08 --> Upload Class Initialized
+INFO - 2024-06-27 14:46:08 --> Config Class Initialized
+INFO - 2024-06-27 14:46:08 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:08 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:08 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:08 --> URI Class Initialized
+INFO - 2024-06-27 14:46:08 --> Router Class Initialized
+INFO - 2024-06-27 14:46:08 --> Output Class Initialized
+INFO - 2024-06-27 14:46:08 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:08 --> Input Class Initialized
+INFO - 2024-06-27 14:46:08 --> Language Class Initialized
+INFO - 2024-06-27 14:46:08 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:08 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:08 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:08 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:08 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:08 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:08 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:46:08 --> Final output sent to browser
+DEBUG - 2024-06-27 14:46:08 --> Total execution time: 0.0397
+INFO - 2024-06-27 14:46:09 --> Config Class Initialized
+INFO - 2024-06-27 14:46:09 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:09 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:09 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:09 --> URI Class Initialized
+INFO - 2024-06-27 14:46:09 --> Router Class Initialized
+INFO - 2024-06-27 14:46:09 --> Output Class Initialized
+INFO - 2024-06-27 14:46:09 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:09 --> Input Class Initialized
+INFO - 2024-06-27 14:46:09 --> Language Class Initialized
+INFO - 2024-06-27 14:46:09 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:09 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:09 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:09 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:09 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:09 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:09 --> Upload Class Initialized
+INFO - 2024-06-27 14:46:09 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 14:46:09 --> Final output sent to browser
+DEBUG - 2024-06-27 14:46:09 --> Total execution time: 0.0400
+INFO - 2024-06-27 14:46:51 --> Config Class Initialized
+INFO - 2024-06-27 14:46:51 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:51 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:51 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:51 --> URI Class Initialized
+INFO - 2024-06-27 14:46:51 --> Router Class Initialized
+INFO - 2024-06-27 14:46:51 --> Output Class Initialized
+INFO - 2024-06-27 14:46:51 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:51 --> Input Class Initialized
+INFO - 2024-06-27 14:46:51 --> Language Class Initialized
+INFO - 2024-06-27 14:46:51 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:51 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:51 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:51 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:51 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:51 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:51 --> Upload Class Initialized
+INFO - 2024-06-27 14:46:51 --> Config Class Initialized
+INFO - 2024-06-27 14:46:51 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:51 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:51 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:51 --> URI Class Initialized
+INFO - 2024-06-27 14:46:51 --> Router Class Initialized
+INFO - 2024-06-27 14:46:51 --> Output Class Initialized
+INFO - 2024-06-27 14:46:51 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:51 --> Input Class Initialized
+INFO - 2024-06-27 14:46:51 --> Language Class Initialized
+INFO - 2024-06-27 14:46:51 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:51 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:51 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:51 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:51 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:51 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:51 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:51 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 14:46:51 --> Final output sent to browser
+DEBUG - 2024-06-27 14:46:51 --> Total execution time: 0.2033
+INFO - 2024-06-27 14:46:53 --> Config Class Initialized
+INFO - 2024-06-27 14:46:53 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:46:53 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:46:53 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:46:53 --> URI Class Initialized
+INFO - 2024-06-27 14:46:53 --> Router Class Initialized
+INFO - 2024-06-27 14:46:53 --> Output Class Initialized
+INFO - 2024-06-27 14:46:53 --> Security Class Initialized
+DEBUG - 2024-06-27 14:46:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:46:53 --> Input Class Initialized
+INFO - 2024-06-27 14:46:53 --> Language Class Initialized
+INFO - 2024-06-27 14:46:53 --> Loader Class Initialized
+INFO - 2024-06-27 14:46:53 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:46:53 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:46:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:46:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:46:53 --> Controller Class Initialized
+INFO - 2024-06-27 14:46:53 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:46:53 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:46:53 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:46:53 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:46:53 --> Final output sent to browser
+DEBUG - 2024-06-27 14:46:53 --> Total execution time: 0.0381
+INFO - 2024-06-27 14:47:46 --> Config Class Initialized
+INFO - 2024-06-27 14:47:46 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:47:46 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:47:46 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:47:46 --> URI Class Initialized
+INFO - 2024-06-27 14:47:46 --> Router Class Initialized
+INFO - 2024-06-27 14:47:46 --> Output Class Initialized
+INFO - 2024-06-27 14:47:46 --> Security Class Initialized
+DEBUG - 2024-06-27 14:47:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:47:46 --> Input Class Initialized
+INFO - 2024-06-27 14:47:46 --> Language Class Initialized
+INFO - 2024-06-27 14:47:46 --> Loader Class Initialized
+INFO - 2024-06-27 14:47:46 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:47:46 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:47:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:47:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:47:46 --> Controller Class Initialized
+INFO - 2024-06-27 14:47:46 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:47:46 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:47:46 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:47:46 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 14:47:46 --> Final output sent to browser
+DEBUG - 2024-06-27 14:47:46 --> Total execution time: 0.2037
+INFO - 2024-06-27 14:47:50 --> Config Class Initialized
+INFO - 2024-06-27 14:47:50 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:47:50 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:47:50 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:47:50 --> URI Class Initialized
+INFO - 2024-06-27 14:47:50 --> Router Class Initialized
+INFO - 2024-06-27 14:47:50 --> Output Class Initialized
+INFO - 2024-06-27 14:47:50 --> Security Class Initialized
+DEBUG - 2024-06-27 14:47:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:47:50 --> Input Class Initialized
+INFO - 2024-06-27 14:47:50 --> Language Class Initialized
+INFO - 2024-06-27 14:47:50 --> Loader Class Initialized
+INFO - 2024-06-27 14:47:50 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:47:50 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:47:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:47:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:47:50 --> Controller Class Initialized
+INFO - 2024-06-27 14:47:50 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:47:50 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:47:50 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:47:50 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:47:50 --> Final output sent to browser
+DEBUG - 2024-06-27 14:47:50 --> Total execution time: 0.0368
+INFO - 2024-06-27 14:47:54 --> Config Class Initialized
+INFO - 2024-06-27 14:47:54 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:47:54 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:47:54 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:47:54 --> URI Class Initialized
+INFO - 2024-06-27 14:47:54 --> Router Class Initialized
+INFO - 2024-06-27 14:47:54 --> Output Class Initialized
+INFO - 2024-06-27 14:47:54 --> Security Class Initialized
+DEBUG - 2024-06-27 14:47:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:47:54 --> Input Class Initialized
+INFO - 2024-06-27 14:47:54 --> Language Class Initialized
+INFO - 2024-06-27 14:47:54 --> Loader Class Initialized
+INFO - 2024-06-27 14:47:54 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:47:54 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:47:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:47:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:47:54 --> Controller Class Initialized
+INFO - 2024-06-27 14:47:54 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:47:54 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:47:54 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:47:54 --> Upload Class Initialized
+INFO - 2024-06-27 14:47:54 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/create.php
+INFO - 2024-06-27 14:47:54 --> Final output sent to browser
+DEBUG - 2024-06-27 14:47:54 --> Total execution time: 0.0540
+INFO - 2024-06-27 14:48:02 --> Config Class Initialized
+INFO - 2024-06-27 14:48:02 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:48:02 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:48:02 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:48:02 --> URI Class Initialized
+INFO - 2024-06-27 14:48:02 --> Router Class Initialized
+INFO - 2024-06-27 14:48:02 --> Output Class Initialized
+INFO - 2024-06-27 14:48:02 --> Security Class Initialized
+DEBUG - 2024-06-27 14:48:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:48:02 --> Input Class Initialized
+INFO - 2024-06-27 14:48:02 --> Language Class Initialized
+INFO - 2024-06-27 14:48:02 --> Loader Class Initialized
+INFO - 2024-06-27 14:48:02 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:48:02 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:48:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:48:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:48:02 --> Controller Class Initialized
+INFO - 2024-06-27 14:48:02 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:48:02 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:48:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:48:02 --> Upload Class Initialized
+INFO - 2024-06-27 14:48:02 --> Config Class Initialized
+INFO - 2024-06-27 14:48:02 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:48:02 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:48:02 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:48:02 --> URI Class Initialized
+INFO - 2024-06-27 14:48:02 --> Router Class Initialized
+INFO - 2024-06-27 14:48:02 --> Output Class Initialized
+INFO - 2024-06-27 14:48:02 --> Security Class Initialized
+DEBUG - 2024-06-27 14:48:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:48:02 --> Input Class Initialized
+INFO - 2024-06-27 14:48:02 --> Language Class Initialized
+INFO - 2024-06-27 14:48:02 --> Loader Class Initialized
+INFO - 2024-06-27 14:48:02 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:48:02 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:48:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:48:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:48:02 --> Controller Class Initialized
+INFO - 2024-06-27 14:48:02 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:48:02 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:48:02 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:48:02 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 14:48:02 --> Final output sent to browser
+DEBUG - 2024-06-27 14:48:02 --> Total execution time: 0.2194
+INFO - 2024-06-27 14:48:03 --> Config Class Initialized
+INFO - 2024-06-27 14:48:03 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:48:03 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:48:03 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:48:03 --> URI Class Initialized
+INFO - 2024-06-27 14:48:03 --> Router Class Initialized
+INFO - 2024-06-27 14:48:03 --> Output Class Initialized
+INFO - 2024-06-27 14:48:03 --> Security Class Initialized
+DEBUG - 2024-06-27 14:48:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:48:03 --> Input Class Initialized
+INFO - 2024-06-27 14:48:03 --> Language Class Initialized
+INFO - 2024-06-27 14:48:03 --> Loader Class Initialized
+INFO - 2024-06-27 14:48:03 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:48:03 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:48:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:48:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:48:03 --> Controller Class Initialized
+INFO - 2024-06-27 14:48:03 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:48:03 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:48:03 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:48:03 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 14:48:03 --> Final output sent to browser
+DEBUG - 2024-06-27 14:48:03 --> Total execution time: 0.0360
+INFO - 2024-06-27 14:53:52 --> Config Class Initialized
+INFO - 2024-06-27 14:53:52 --> Hooks Class Initialized
+DEBUG - 2024-06-27 14:53:52 --> UTF-8 Support Enabled
+INFO - 2024-06-27 14:53:52 --> Utf8 Class Initialized
+INFO - 2024-06-27 14:53:52 --> URI Class Initialized
+INFO - 2024-06-27 14:53:52 --> Router Class Initialized
+INFO - 2024-06-27 14:53:52 --> Output Class Initialized
+INFO - 2024-06-27 14:53:52 --> Security Class Initialized
+DEBUG - 2024-06-27 14:53:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 14:53:52 --> Input Class Initialized
+INFO - 2024-06-27 14:53:52 --> Language Class Initialized
+INFO - 2024-06-27 14:53:52 --> Loader Class Initialized
+INFO - 2024-06-27 14:53:52 --> Helper loaded: url_helper
+INFO - 2024-06-27 14:53:52 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 14:53:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 14:53:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 14:53:52 --> Controller Class Initialized
+INFO - 2024-06-27 14:53:52 --> Database Driver Class Initialized
+INFO - 2024-06-27 14:53:52 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 14:53:52 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 14:53:52 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 14:53:52 --> Final output sent to browser
+DEBUG - 2024-06-27 14:53:52 --> Total execution time: 0.2377
+INFO - 2024-06-27 16:14:06 --> Config Class Initialized
+INFO - 2024-06-27 16:14:06 --> Hooks Class Initialized
+DEBUG - 2024-06-27 16:14:06 --> UTF-8 Support Enabled
+INFO - 2024-06-27 16:14:06 --> Utf8 Class Initialized
+INFO - 2024-06-27 16:14:06 --> URI Class Initialized
+DEBUG - 2024-06-27 16:14:06 --> No URI present. Default controller set.
+INFO - 2024-06-27 16:14:06 --> Router Class Initialized
+INFO - 2024-06-27 16:14:06 --> Output Class Initialized
+INFO - 2024-06-27 16:14:06 --> Security Class Initialized
+DEBUG - 2024-06-27 16:14:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 16:14:06 --> Input Class Initialized
+INFO - 2024-06-27 16:14:06 --> Language Class Initialized
+INFO - 2024-06-27 16:14:06 --> Loader Class Initialized
+INFO - 2024-06-27 16:14:06 --> Helper loaded: url_helper
+INFO - 2024-06-27 16:14:06 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 16:14:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 16:14:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 16:14:06 --> Controller Class Initialized
+INFO - 2024-06-27 16:14:06 --> Database Driver Class Initialized
+INFO - 2024-06-27 16:14:06 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 16:14:06 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 16:14:06 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 16:14:06 --> Final output sent to browser
+DEBUG - 2024-06-27 16:14:06 --> Total execution time: 0.1361
+INFO - 2024-06-27 16:14:08 --> Config Class Initialized
+INFO - 2024-06-27 16:14:08 --> Hooks Class Initialized
+DEBUG - 2024-06-27 16:14:08 --> UTF-8 Support Enabled
+INFO - 2024-06-27 16:14:08 --> Utf8 Class Initialized
+INFO - 2024-06-27 16:14:08 --> URI Class Initialized
+INFO - 2024-06-27 16:14:08 --> Router Class Initialized
+INFO - 2024-06-27 16:14:08 --> Output Class Initialized
+INFO - 2024-06-27 16:14:08 --> Security Class Initialized
+DEBUG - 2024-06-27 16:14:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 16:14:08 --> Input Class Initialized
+INFO - 2024-06-27 16:14:08 --> Language Class Initialized
+INFO - 2024-06-27 16:14:08 --> Loader Class Initialized
+INFO - 2024-06-27 16:14:08 --> Helper loaded: url_helper
+INFO - 2024-06-27 16:14:08 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 16:14:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 16:14:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 16:14:08 --> Controller Class Initialized
+INFO - 2024-06-27 16:14:08 --> Database Driver Class Initialized
+INFO - 2024-06-27 16:14:08 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 16:14:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 16:14:09 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 16:14:09 --> Final output sent to browser
+DEBUG - 2024-06-27 16:14:09 --> Total execution time: 0.2651
+INFO - 2024-06-27 16:14:10 --> Config Class Initialized
+INFO - 2024-06-27 16:14:10 --> Hooks Class Initialized
+DEBUG - 2024-06-27 16:14:10 --> UTF-8 Support Enabled
+INFO - 2024-06-27 16:14:10 --> Utf8 Class Initialized
+INFO - 2024-06-27 16:14:10 --> URI Class Initialized
+INFO - 2024-06-27 16:14:10 --> Router Class Initialized
+INFO - 2024-06-27 16:14:10 --> Output Class Initialized
+INFO - 2024-06-27 16:14:10 --> Security Class Initialized
+DEBUG - 2024-06-27 16:14:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 16:14:10 --> Input Class Initialized
+INFO - 2024-06-27 16:14:10 --> Language Class Initialized
+INFO - 2024-06-27 16:14:10 --> Loader Class Initialized
+INFO - 2024-06-27 16:14:10 --> Helper loaded: url_helper
+INFO - 2024-06-27 16:14:10 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 16:14:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 16:14:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 16:14:10 --> Controller Class Initialized
+INFO - 2024-06-27 16:14:10 --> Database Driver Class Initialized
+INFO - 2024-06-27 16:14:10 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 16:14:10 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 16:14:10 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 16:14:10 --> Final output sent to browser
+DEBUG - 2024-06-27 16:14:10 --> Total execution time: 0.0506
+INFO - 2024-06-27 16:14:11 --> Config Class Initialized
+INFO - 2024-06-27 16:14:11 --> Hooks Class Initialized
+DEBUG - 2024-06-27 16:14:11 --> UTF-8 Support Enabled
+INFO - 2024-06-27 16:14:11 --> Utf8 Class Initialized
+INFO - 2024-06-27 16:14:11 --> URI Class Initialized
+INFO - 2024-06-27 16:14:11 --> Router Class Initialized
+INFO - 2024-06-27 16:14:11 --> Output Class Initialized
+INFO - 2024-06-27 16:14:11 --> Security Class Initialized
+DEBUG - 2024-06-27 16:14:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 16:14:11 --> Input Class Initialized
+INFO - 2024-06-27 16:14:11 --> Language Class Initialized
+INFO - 2024-06-27 16:14:11 --> Loader Class Initialized
+INFO - 2024-06-27 16:14:11 --> Helper loaded: url_helper
+INFO - 2024-06-27 16:14:11 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 16:14:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 16:14:11 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 16:14:11 --> Controller Class Initialized
+INFO - 2024-06-27 16:14:11 --> Database Driver Class Initialized
+INFO - 2024-06-27 16:14:11 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 16:14:11 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 16:14:11 --> File loaded: C:\xampp\htdocs\Blog\application\views\blog/post.php
+INFO - 2024-06-27 16:14:11 --> Final output sent to browser
+DEBUG - 2024-06-27 16:14:11 --> Total execution time: 0.3341
+INFO - 2024-06-27 16:14:43 --> Config Class Initialized
+INFO - 2024-06-27 16:14:43 --> Hooks Class Initialized
+DEBUG - 2024-06-27 16:14:43 --> UTF-8 Support Enabled
+INFO - 2024-06-27 16:14:43 --> Utf8 Class Initialized
+INFO - 2024-06-27 16:14:43 --> URI Class Initialized
+INFO - 2024-06-27 16:14:43 --> Router Class Initialized
+INFO - 2024-06-27 16:14:43 --> Output Class Initialized
+INFO - 2024-06-27 16:14:43 --> Security Class Initialized
+DEBUG - 2024-06-27 16:14:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-06-27 16:14:43 --> Input Class Initialized
+INFO - 2024-06-27 16:14:43 --> Language Class Initialized
+INFO - 2024-06-27 16:14:43 --> Loader Class Initialized
+INFO - 2024-06-27 16:14:43 --> Helper loaded: url_helper
+INFO - 2024-06-27 16:14:43 --> Helper loaded: form_helper
+DEBUG - 2024-06-27 16:14:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-06-27 16:14:43 --> Session: Class initialized using 'files' driver.
+INFO - 2024-06-27 16:14:43 --> Controller Class Initialized
+INFO - 2024-06-27 16:14:43 --> Database Driver Class Initialized
+INFO - 2024-06-27 16:14:43 --> Model "Blog_model" initialized
+DEBUG - 2024-06-27 16:14:43 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-06-27 16:14:43 --> File loaded: C:\xampp\htdocs\Blog\application\views\home/home.php
+INFO - 2024-06-27 16:14:43 --> Final output sent to browser
+DEBUG - 2024-06-27 16:14:43 --> Total execution time: 0.0458
